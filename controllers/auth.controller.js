@@ -1,6 +1,6 @@
 const User = require("../models/user.model");
 const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken")
+const jwt = require("jsonwebtoken");
 const { validationResult } = require("express-validator");
 const { secret } = require("../configs/secret.config");
 
@@ -48,7 +48,7 @@ class authController {
         return res.status(400).json({message: "Incorrect login or password"});
       };
       let userType;
-      if (validPassword && user.type === "ADMIN") {
+      if (validPassword && user.role === "ADMIN") {
         userType = "ADMIN";
       };
 
@@ -71,7 +71,7 @@ class authController {
 
   async updateUser(req, res) {
     try {
-      const {email, name, password} = req.body;
+      const {email, name, password, role, isActive} = req.body;
       const user = await User.findOne({email});
       if (!user) {
         return res.status(400).json({message: "No any matches in database to your request"});
@@ -81,7 +81,9 @@ class authController {
         {
           $set: {
             name: name,
-            password: password
+            password: password,
+            role: role,
+            isActive: isActive
           },
           function(_, result) {
             console.log(result)

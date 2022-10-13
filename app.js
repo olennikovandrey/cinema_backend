@@ -8,9 +8,9 @@ app.use("/", routers);
 
 const start = async () => {
   try {
-    mongoose.connect("mongodb://localhost:27017/Users", {useUnifiedTopology: true, useNewUrlParser: true});
+    mongoose.connect("mongodb://localhost:27017/Cinema", {useUnifiedTopology: true, useNewUrlParser: true});
     console.log("DB connected");
-    app.listen(3000, () => {console.log("Server OK")});
+    app.listen(4000, () => {console.log("Server OK")});
   } catch (err) {
     console.log(err);
   };

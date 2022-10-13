@@ -9,7 +9,7 @@ module.exports = (req, res, next) => {
       }
       const decoded = jwt.verify(token, secret);
       let isAdmin = false;
-      if (decoded.id === "63457cffd003eaf944336eff") {
+      if (decoded.id === "6346a1b347a569d14b504ddf") {
         isAdmin = true;
       };
       if (!isAdmin) {
@@ -17,6 +17,6 @@ module.exports = (req, res, next) => {
       };
       next();
     } catch (e) {
-      return res.status(403).json({message: "User not authorized"});
+      return res.status(403).json({message: "User not authorized or have no permissions"});
     };
   };
