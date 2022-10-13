@@ -1,9 +1,11 @@
 const Router = require("express");
-const routers = new Router();
+const router = new Router();
 const authRouters = require("./auth.router");
 const movieRouters = require("./movie.router");
+const cinemaRouters = require("./cinema.router");
 
-routers.use("/auth", authRouters);
-routers.use("/movies", movieRouters);
+router.use("/auth", authRouters);
+router.use("/movies", movieRouters);
+router.use("/cinemas", cinemaRouters);
 
-module.exports = routers
+module.exports = router

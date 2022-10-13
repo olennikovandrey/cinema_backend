@@ -29,7 +29,8 @@ class authController {
       const user = new User({name, email, password: hashPassword, isActive: true});
       await user.save();
 
-      return res.json({massage: "Successfully registered"});
+      const token = generateAccessToken(user._id);
+      return res.json({token});
     } catch (e) {
       console.log(e);
       res.status(400).json({message: "Registration error"});

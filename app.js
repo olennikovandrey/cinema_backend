@@ -1,10 +1,12 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const routers = require("./routers/index");
+const router = require("./routers/index");
+const cors = require('cors')
 
 const app = express();
 app.use(express.json());
-app.use("/", routers);
+app.use(cors());
+app.use("/", router);
 
 const start = async () => {
   try {

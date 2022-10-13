@@ -7,7 +7,7 @@ const Cinema = new Schema({
     {
       date: String,
       time: String,
-      movie: String
+      _id: Array
     }
   ]
 })
