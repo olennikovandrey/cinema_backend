@@ -1,5 +1,4 @@
 const Cinema = require("../models/cinema.model");
-const bcrypt = require("bcryptjs");
 
 class cinemaController {
   async addCinema(req, res) {
@@ -63,7 +62,7 @@ class cinemaController {
   async deleteCinama(req, res) {
     try {
       const {title} = req.body;
-      const cinema = await Cinema.findOne({email});
+      const cinema = await Cinema.findOne({title});
       if (!cinema) {
         return res.status(400).json({message: "No any matches in database to your request"});
       }

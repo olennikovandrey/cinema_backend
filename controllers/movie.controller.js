@@ -29,19 +29,57 @@ class movieController {
 
   async getExactMovie(req, res) {
     try {
-      const requestTitle = req.params.title.split("=")[1];
-      const currentMovie = await Movie.findOne({title: requestTitle});
+      const requestId = req.params.id.split("=")[1];
+      const currentMovie = await Movie.findOne({_id: requestId});
       return res.json(currentMovie)
     } catch (e) {
       return res.status(400).json({message: "Error", e})
     }
   }
 
+  async getMovieByProducer(req, res) {
+    try {
+      const requestProducer = req.params.producer.split("=")[1];
+      const currentMovie = await Movie.find({producer: requestProducer});
+      return res.json(currentMovie)
+    } catch (e) {
+      return res.status(400).json({message: "Error", e})
+    }
+  }
+
+  async getMovieByActor(req, res) {
+    try {
+      const requestActor = req.params.actor.split("=")[1];
+      const currentMovie = await Movie.find({actors: requestActor});
+      return res.json(currentMovie)
+    } catch (e) {
+      return res.status(400).json({message: "Error", e})
+    }
+  }
+
+  async getMovieByCountry(req, res) {
+    try {
+      const requestCountry = req.params.country.split("=")[1];
+      const currentMovie = await Movie.find({country: requestCountry});
+      return res.json(currentMovie)
+    } catch (e) {
+      return res.status(400).json({message: "Error", e})
+    }
+  }
+
+  async getMovieByTitle(req, res) {
+    try {
+      const requestTitle = req.params.title.split("=")[1];
+      const currentMovie = await Movie.find({title: requestTitle});
+      return res.json(currentMovie)
+    } catch (e) {
+      return res.status(400).json({message: "Error", e})
+    }
+  }
 
   async deleteMovie(req, res) {
     try {
       const {title} = req.body;
-      console.log(title)
       const movie = await Movie.findOne({title});
       await Movie.deleteOne({movie});
       return res.status(200).json({message: "Movie deleted"});

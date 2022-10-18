@@ -16,13 +16,13 @@ class authController {
     try {
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
-        return res.status(400).json({message: "Validation error via registration", errors});
+        return res.status(400).json({message: "Ошибка валидации во время регистрации", errors});
       };
 
       const {name, email, password} = req.body;
       const candidate = await User.findOne({email});
       if (candidate) {
-        return res.status(400).json({message: "User already exists"});
+        return res.status(400).json({message: "Такой пользователь уже существует"});
       };
 
       const hashPassword = bcrypt.hashSync(password, 1);
@@ -33,20 +33,20 @@ class authController {
       return res.json({token});
     } catch (e) {
       console.log(e);
-      res.status(400).json({message: "Registration error"});
+      res.status(400).json({message: "Ошибка регистрации"});
     }
   }
 
   async login(req, res) {
     try {
-      const {name, email, password} = req.body;
+      const {email, password} = req.body;
       const user = await User.findOne({email});
       if (!user) {
-        return res.status(400).json({message: `User ${name} not find`});
+        return res.status(400).json({message: "Неверный логин или пароль"});
       };
       const validPassword = bcrypt.compareSync(password, user.password);
       if (!validPassword) {
-        return res.status(400).json({message: "Incorrect login or password"});
+        return res.status(400).json({message: "Неверный логин или пароль"});
       };
       let userType;
       if (validPassword && user.role === "ADMIN") {
@@ -57,7 +57,7 @@ class authController {
       return res.json({token});
     } catch (e) {
       console.log(e);
-      res.status(400).json({message: "Login error", e});
+      res.status(400).json({message: "Неверный логин или пароль", e});
     }
   }
 
@@ -66,7 +66,7 @@ class authController {
       const users = await User.find();
         return res.json(users);
     } catch (e) {
-      res.status(400).json({message: "Something wrong", e});
+      res.status(400).json({message: "Что-то не так...", e});
     }
   }
 
@@ -75,7 +75,7 @@ class authController {
       const {email, name, password, role, isActive} = req.body;
       const user = await User.findOne({email});
       if (!user) {
-        return res.status(400).json({message: "No any matches in database to your request"});
+        return res.status(400).json({message: "По Вашему запросу не найдено совпадений"});
       }
       await User.findOneAndUpdate(
         {email},
@@ -91,9 +91,9 @@ class authController {
           }
         }
       );
-      return res.status(200).json({message: "User updated"});
+      return res.status(200).json({message: "Информация успешно обновлена"});
     } catch (e) {
-      res.status(400).json({message: "Something wrong", e});
+      res.status(400).json({message: "Что-то не так...", e});
     }
   }
 
@@ -102,12 +102,12 @@ class authController {
       const {email} = req.body;
       const user = await User.findOne({email});
       if (!user) {
-        return res.status(400).json({message: "No any matches in database to your request"});
+        return res.status(400).json({message: "По Вашему запросу не найдено совпадений"});
       }
       await User.deleteOne({email});
-      return res.status(200).json({message: "User deleted"});
+      return res.status(200).json({message: "Пользователь удален"});
     } catch (e) {
-      res.status(400).json({message: "Something wrong", e});
+      res.status(400).json({message: "Что-то не так...", e});
     }
   }
 };
