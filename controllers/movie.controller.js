@@ -1,23 +1,6 @@
 const Movie = require("../models/movie.model");
 
 class movieController {
-  async add(req, res) {
-    try {
-      const {title, country, year, genre, slogan, producer, producerLink, description, duration, age, rating, actors, image} = req.body;
-      const candidate = await Movie.findOne({title});
-      if (candidate) {
-        return res.status(400).json({message: "Movie already exists"});
-      };
-      const movie = new Movie({title, country, year, genre, slogan, producer, producerLink, description, duration, age, rating, actors, image});
-      await movie.save();
-
-      return res.json({massage: "Successfully added"});
-    } catch (e) {
-      console.log(e);
-      res.status(400).json({message: "Adding error", e});
-    }
-  }
-
   async getAll(_, res) {
     try {
       const movies = await Movie.find();
@@ -40,7 +23,12 @@ class movieController {
   async getMovieByProducer(req, res) {
     try {
       const requestProducer = req.params.producer.split("=")[1];
-      const currentMovie = await Movie.find({producer: requestProducer});
+      const regex = new RegExp(requestProducer, "i");
+      const currentMovie = await Movie.find({
+        producer: {$elemMatch: {
+          name: {$regex: regex}
+        }}
+      });
       return res.json(currentMovie)
     } catch (e) {
       return res.status(400).json({message: "Error", e})
@@ -50,7 +38,12 @@ class movieController {
   async getMovieByActor(req, res) {
     try {
       const requestActor = req.params.actor.split("=")[1];
-      const currentMovie = await Movie.find({actors: requestActor});
+      const regex = new RegExp(requestActor, "i");
+      const currentMovie = await Movie.find({
+        actors: {$elemMatch: {
+          name: {$regex: regex}
+        }}
+      });
       return res.json(currentMovie)
     } catch (e) {
       return res.status(400).json({message: "Error", e})
@@ -60,7 +53,10 @@ class movieController {
   async getMovieByCountry(req, res) {
     try {
       const requestCountry = req.params.country.split("=")[1];
-      const currentMovie = await Movie.find({country: requestCountry});
+      const regex = new RegExp(requestCountry, "i");
+      const currentMovie = await Movie.find({
+        country: {$regex: regex}
+      });
       return res.json(currentMovie)
     } catch (e) {
       return res.status(400).json({message: "Error", e})
@@ -70,21 +66,26 @@ class movieController {
   async getMovieByTitle(req, res) {
     try {
       const requestTitle = req.params.title.split("=")[1];
-      const currentMovie = await Movie.find({title: requestTitle});
+      const regex = new RegExp(requestTitle, "i");
+      const currentMovie = await Movie.find({
+        title: {$regex: regex}
+      });
       return res.json(currentMovie)
     } catch (e) {
       return res.status(400).json({message: "Error", e})
     }
   }
 
-  async deleteMovie(req, res) {
+  async getMovieByGenre(req, res) {
     try {
-      const {title} = req.body;
-      const movie = await Movie.findOne({title});
-      await Movie.deleteOne({movie});
-      return res.status(200).json({message: "Movie deleted"});
+      const requestGenre = req.params.genre.split("=")[1];
+      const regex = new RegExp(requestGenre, "i");
+      const currentMovie = await Movie.find({
+        genre: {$regex: regex}
+      });
+      return res.json(currentMovie)
     } catch (e) {
-      res.status(400).json({message: "Something wrong", e});
+      return res.status(400).json({message: "Error", e})
     }
   }
 };

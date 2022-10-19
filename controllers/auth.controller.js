@@ -54,25 +54,16 @@ class authController {
       };
 
       const token = generateAccessToken(user._id, userType);
-      return res.json({token});
+      return res.json({token: token, userType: userType});
     } catch (e) {
       console.log(e);
       res.status(400).json({message: "Неверный логин или пароль", e});
     }
   }
 
-  async getUsers(_, res) {
-    try {
-      const users = await User.find();
-        return res.json(users);
-    } catch (e) {
-      res.status(400).json({message: "Что-то не так...", e});
-    }
-  }
-
   async updateUser(req, res) {
     try {
-      const {email, name, password, role, isActive} = req.body;
+      const {email, name, password, isActive} = req.body;
       const user = await User.findOne({email});
       if (!user) {
         return res.status(400).json({message: "По Вашему запросу не найдено совпадений"});
@@ -83,7 +74,6 @@ class authController {
           $set: {
             name: name,
             password: password,
-            role: role,
             isActive: isActive
           },
           function(_, result) {
@@ -92,20 +82,6 @@ class authController {
         }
       );
       return res.status(200).json({message: "Информация успешно обновлена"});
-    } catch (e) {
-      res.status(400).json({message: "Что-то не так...", e});
-    }
-  }
-
-  async deleteUser(req, res) {
-    try {
-      const {email} = req.body;
-      const user = await User.findOne({email});
-      if (!user) {
-        return res.status(400).json({message: "По Вашему запросу не найдено совпадений"});
-      }
-      await User.deleteOne({email});
-      return res.status(200).json({message: "Пользователь удален"});
     } catch (e) {
       res.status(400).json({message: "Что-то не так...", e});
     }
