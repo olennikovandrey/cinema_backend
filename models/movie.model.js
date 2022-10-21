@@ -2,14 +2,14 @@ const {Schema, model} = require("mongoose");
 
 const Movie = new Schema({
   title: {type: String, required: true, unique: true},
-  country: {type: [String], required: true},
+  country: {type: Array, required: true},
   year: {type: String, required: true},
-  genre: {type: [String], required: true},
+  genre: {type: Array, required: true},
   slogan: {type: String, required: true},
   producer: {type: [
     {
       name: {type: String, required: true },
-      link: {type: String, required: true },
+      link: {type: String },
     }
   ], required: true},
   description: {type: String, required: true},
@@ -19,8 +19,8 @@ const Movie = new Schema({
   actors: {type: [
     {
       name: {type: String, required: true },
-      link: {type: String, required: true },
-      image: {type: String}
+      link: {type: String },
+      image: {type: String }
     }
   ], required: true},
   image: {type: String, required: true}

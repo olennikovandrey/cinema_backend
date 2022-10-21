@@ -61,6 +61,27 @@ class authController {
     }
   }
 
+  async checkIsAuth(req, res) {
+    try {
+      const token = req.headers.authorization;
+      if (!token) {
+        return res.status(403).json({message: "Пользователь не авторизован"});
+      }
+      const decoded = jwt.verify(token, secret);
+      const userId = decoded.id
+      const user = await User.findOne({_id: userId});
+
+      if (decoded && user.role === "ADMIN") {
+        return res.json({ isAuth: true, role: "ADMIN" });
+      } else if (decoded) {
+        return res.json({ isAuth: true });
+      }
+    } catch (e) {
+      console.log(e);
+      res.status(400).json({message: "Ошибка запроса или истек срок действия токена", e});
+    }
+  }
+
   async updateUser(req, res) {
     try {
       const {email, name, password, isActive} = req.body;

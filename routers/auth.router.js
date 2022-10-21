@@ -11,5 +11,6 @@ authRouters.post("/registration", [
 ], authController.registration);
 authRouters.post("/login", authController.login);
 authRouters.put("/updateuser", authController.updateUser);
+authRouters.get("/checkisauth", authController.checkIsAuth);
 
 module.exports = authRouters
