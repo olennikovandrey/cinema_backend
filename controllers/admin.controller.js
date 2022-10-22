@@ -96,6 +96,37 @@ class adminController {
     }
   }
 
+  async updateMovie(req, res) {
+    try {
+      const {title, country, year, genre, slogan, producer, description, duration, age, rating, image} = req.body;
+      const movie = await Movie.findOne({title});
+      if (!movie) {
+        return res.status(400).json({message: "Такого фильма не существует"});
+      }
+      await Movie.findOneAndUpdate(
+        {title},
+        {
+          $set: {
+            country: country,
+            year: year,
+            genre: genre,
+            slogan: slogan,
+            producer: producer,
+            description: description,
+            duration: duration,
+            age: age,
+            rating: rating,
+            image: image
+          }
+        }
+      );
+      return res.status(200).json({message: "Информация о фильме успешно обновлена"});
+    } catch (e) {
+      console.log(e)
+      return res.status(400).json({message: "Something wrong"});
+    }
+  }
+
   async deleteMovie(req, res) {
     try {
       const {title} = req.body;

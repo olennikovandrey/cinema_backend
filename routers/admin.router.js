@@ -9,6 +9,7 @@ adminRouters.post("/addcinema", adminController.addCinema);
 adminRouters.put("/updatecinema", adminController.updateCinema);
 adminRouters.delete("/deletecinema", adminController.deleteCinema);
 adminRouters.post("/addmovie", adminController.addMovie);
+adminRouters.put("/updatemovie", adminController.updateMovie);
 adminRouters.delete("/deletemovie", adminController.deleteMovie);
 
 module.exports = adminRouters
