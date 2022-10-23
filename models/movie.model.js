@@ -23,7 +23,9 @@ const Movie = new Schema({
       image: {type: String }
     }
   ], required: true},
-  image: {type: String, required: true}
+  youtubeIframe: {type: String},
+  image: {type: String, required: true},
+  crop: {type: String, required: true}
 })
 
 module.exports = model("Movie", Movie);
