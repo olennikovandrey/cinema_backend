@@ -19,14 +19,14 @@ class authController {
         return res.status(400).json({message: "Ошибка валидации во время регистрации", errors});
       };
 
-      const {name, email, password} = req.body;
+      const {firstName, email, password} = req.body;
       const candidate = await User.findOne({email});
       if (candidate) {
         return res.status(400).json({message: "Такой пользователь уже существует"});
       };
 
       const hashPassword = bcrypt.hashSync(password, 1);
-      const user = new User({name, email, password: hashPassword, isActive: true});
+      const user = new User({firstName, email, password: hashPassword, isActive: true});
       await user.save();
 
       const token = generateAccessToken(user._id);
@@ -61,6 +61,18 @@ class authController {
     }
   }
 
+  async getUserData(req, res) {
+    try {
+      const token = req.headers.authorization;
+      const decoded = jwt.verify(token, secret);
+      const userId = decoded.id
+      const user = await User.findOne({_id: userId});
+      return res.status(200).json({user});
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   async checkIsAuth(req, res) {
     try {
       const token = req.headers.authorization;
@@ -84,27 +96,43 @@ class authController {
 
   async updateUser(req, res) {
     try {
-      const {email, name, password, isActive} = req.body;
+      const {email, firstName, oldPassword, password, lastName, birthday} = req.body;
       const user = await User.findOne({email});
       if (!user) {
         return res.status(400).json({message: "По Вашему запросу не найдено совпадений"});
       }
-      await User.findOneAndUpdate(
+
+      if(oldPassword) {
+        const validPassword = bcrypt.compareSync(oldPassword, user.password);
+        const hashPassword = bcrypt.hashSync(password, 1);
+        if (!validPassword) {
+          return res.status(400).json({message: "Неверный пароль"});
+        } else {
+          await User.findOneAndUpdate(
+          {email},
+          {
+            $set: {
+              password: hashPassword
+            }
+          }
+        );
+        return res.status(200).json({message: "Информация успешно обновлена"});
+        }
+      } else {
+        await User.findOneAndUpdate(
         {email},
         {
           $set: {
-            name: name,
-            password: password,
-            isActive: isActive
-          },
-          function(_, result) {
-            console.log(result)
+            firstName: firstName,
+            lastName: lastName,
+            birthday: birthday
           }
         }
-      );
+      )
       return res.status(200).json({message: "Информация успешно обновлена"});
+      }
     } catch (e) {
-      res.status(400).json({message: "Что-то не так...", e});
+      res.status(400).json({message: "Что-то не так... Возможно, не все поля заполнены или введён неверный пароль", e});
     }
   }
 };
