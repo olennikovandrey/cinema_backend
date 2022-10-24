@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 module.exports = {
-  secret: "TOP_SECRET_value"
+  secret: process.env.AUTH_JWT_SECRET
 };
