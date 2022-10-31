@@ -13,10 +13,10 @@ module.exports = (req, res, next) => {
       isAdmin = true;
     };
     if (!isAdmin) {
-      return res.status(403).json({massage: "You have no permission"});
+      return res.status(403).json({ massage: "You have no permission" });
     };
     next();
   } catch (e) {
-    return res.status(403).json({message: "User not authorized or have no permissions"});
+    return res.status(403).json({ message: "User not authorized or have no permissions" });
   };
 };

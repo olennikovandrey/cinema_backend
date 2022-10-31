@@ -6,17 +6,17 @@ class movieController {
       const movies = await Movie.find();
       return res.json(movies);
     } catch (e) {
-      return res.status(400).json({message: "Error", e})
+      return res.status(400).json({ message: "Error", e })
     }
   }
 
   async getExactMovie(req, res) {
     try {
       const requestId = req.params.id.split("=")[1];
-      const currentMovie = await Movie.findOne({_id: requestId});
+      const currentMovie = await Movie.findOne({ _id: requestId });
       return res.json(currentMovie)
     } catch (e) {
-      return res.status(400).json({message: "Error", e})
+      return res.status(400).json({ message: "Error", e })
     }
   }
 
@@ -25,13 +25,13 @@ class movieController {
       const requestProducer = req.params.producer.split("=")[1];
       const regex = new RegExp(requestProducer, "i");
       const currentMovie = await Movie.find({
-        producer: {$elemMatch: {
-          name: {$regex: regex}
+        producer: { $elemMatch: {
+          name: { $regex: regex }
         }}
       });
       return res.json(currentMovie)
     } catch (e) {
-      return res.status(400).json({message: "Error", e})
+      return res.status(400).json({ message: "Error", e })
     }
   }
 
@@ -40,13 +40,13 @@ class movieController {
       const requestActor = req.params.actor.split("=")[1];
       const regex = new RegExp(requestActor, "i");
       const currentMovie = await Movie.find({
-        actors: {$elemMatch: {
-          name: {$regex: regex}
+        actors: { $elemMatch: {
+          name: { $regex: regex }
         }}
       });
       return res.json(currentMovie)
     } catch (e) {
-      return res.status(400).json({message: "Error", e})
+      return res.status(400).json({ message: "Error", e })
     }
   }
 
@@ -55,11 +55,11 @@ class movieController {
       const requestCountry = req.params.country.split("=")[1];
       const regex = new RegExp(requestCountry, "i");
       const currentMovie = await Movie.find({
-        country: {$regex: regex}
+        country: { $regex: regex }
       });
       return res.json(currentMovie)
     } catch (e) {
-      return res.status(400).json({message: "Error", e})
+      return res.status(400).json({ message: "Error", e })
     }
   }
 
@@ -68,11 +68,11 @@ class movieController {
       const requestTitle = req.params.title.split("=")[1];
       const regex = new RegExp(requestTitle, "i");
       const currentMovie = await Movie.find({
-        title: {$regex: regex}
+        title: { $regex: regex }
       });
       return res.json(currentMovie)
     } catch (e) {
-      return res.status(400).json({message: "Error", e})
+      return res.status(400).json({ message: "Error", e })
     }
   }
 
@@ -81,11 +81,11 @@ class movieController {
       const requestGenre = req.params.genre.split("=")[1];
       const regex = new RegExp(requestGenre, "i");
       const currentMovie = await Movie.find({
-        genre: {$regex: regex}
+        genre: { $regex: regex }
       });
       return res.json(currentMovie)
     } catch (e) {
-      return res.status(400).json({message: "Error", e})
+      return res.status(400).json({ message: "Error", e })
     }
   }
 };

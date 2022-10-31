@@ -8,7 +8,7 @@ const generateAccessToken = (id) => {
   const payload = {
     id
   };
-  return jwt.sign(payload, secret, {expiresIn: "24h"});
+  return jwt.sign(payload, secret, { expiresIn: "24h" });
 };
 
 class authController {
@@ -16,37 +16,37 @@ class authController {
     try {
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
-        return res.status(400).json({message: "Ошибка валидации во время регистрации", errors});
+        return res.status(400).json({ message: "Ошибка валидации во время регистрации", errors });
       };
 
-      const {firstName, email, password} = req.body;
+      const { firstName, email, password } = req.body;
       const candidate = await User.findOne({email});
       if (candidate) {
-        return res.status(400).json({message: "Такой пользователь уже существует"});
+        return res.status(400).json({ message: "Такой пользователь уже существует" });
       };
 
       const hashPassword = bcrypt.hashSync(password, 1);
-      const user = new User({firstName, email, password: hashPassword, isActive: true});
+      const user = new User({ firstName, email, password: hashPassword, isActive: true });
       await user.save();
 
       const token = generateAccessToken(user._id);
-      return res.json({token});
+      return res.json({ token });
     } catch (e) {
       console.log(e);
-      res.status(400).json({message: "Ошибка регистрации"});
+      res.status(400).json({ message: "Ошибка регистрации" });
     }
   }
 
   async login(req, res) {
     try {
-      const {email, password} = req.body;
-      const user = await User.findOne({email});
+      const { email, password } = req.body;
+      const user = await User.findOne({ email });
       if (!user) {
-        return res.status(400).json({message: "Неверный логин или пароль"});
+        return res.status(400).json({ message: "Неверный логин или пароль" });
       };
       const validPassword = bcrypt.compareSync(password, user.password);
       if (!validPassword) {
-        return res.status(400).json({message: "Неверный логин или пароль"});
+        return res.status(400).json({ message: "Неверный логин или пароль" });
       };
       let userType;
       if (validPassword && user.role === "ADMIN") {
@@ -54,10 +54,10 @@ class authController {
       };
 
       const token = generateAccessToken(user._id, userType);
-      return res.json({token, userType});
+      return res.json({ token, userType });
     } catch (e) {
       console.log(e);
-      res.status(400).json({message: "Неверный логин или пароль", e});
+      res.status(400).json({ message: "Неверный логин или пароль", e });
     }
   }
 
@@ -66,8 +66,8 @@ class authController {
       const token = req.headers.authorization;
       const decoded = jwt.verify(token, secret);
       const userId = decoded.id
-      const user = await User.findOne({_id: userId});
-      return res.status(200).json({user});
+      const user = await User.findOne({ _id: userId });
+      return res.status(200).json({ user });
     } catch (e) {
       console.log(e);
     }
@@ -77,11 +77,11 @@ class authController {
     try {
       const token = req.headers.authorization;
       if (!token) {
-        return res.status(403).json({message: "Пользователь не авторизован"});
+        return res.status(403).json({ message: "Пользователь не авторизован" });
       }
       const decoded = jwt.verify(token, secret);
       const userId = decoded.id
-      const user = await User.findOne({_id: userId});
+      const user = await User.findOne({ _id: userId });
 
       if (decoded && user.role === "ADMIN") {
         return res.json({ isAuth: true, role: "ADMIN" });
@@ -90,37 +90,37 @@ class authController {
       }
     } catch (e) {
       console.log(e);
-      res.status(400).json({message: "Ошибка запроса или истек срок действия токена", e});
+      res.status(400).json({ message: "Ошибка запроса или истек срок действия токена", e });
     }
   }
 
   async updateUser(req, res) {
     try {
       const {email, firstName, oldPassword, password, lastName, birthday} = req.body;
-      const user = await User.findOne({email});
+      const user = await User.findOne({ email });
       if (!user) {
-        return res.status(400).json({message: "По Вашему запросу не найдено совпадений"});
+        return res.status(400).json({ message: "По Вашему запросу не найдено совпадений" });
       }
 
       if(oldPassword) {
         const validPassword = bcrypt.compareSync(oldPassword, user.password);
         const hashPassword = bcrypt.hashSync(password, 1);
         if (!validPassword) {
-          return res.status(400).json({message: "Неверный пароль"});
+          return res.status(400).json({ message: "Неверный пароль" });
         } else {
           await User.findOneAndUpdate(
-          {email},
+          { email },
           {
             $set: {
               password: hashPassword
             }
           }
         );
-        return res.status(200).json({message: "Информация успешно обновлена"});
+        return res.status(200).json({ message: "Информация успешно обновлена" });
         }
       } else {
         await User.findOneAndUpdate(
-        {email},
+        { email },
         {
           $set: {
             firstName: firstName,
@@ -129,10 +129,10 @@ class authController {
           }
         }
       )
-      return res.status(200).json({message: "Информация успешно обновлена"});
+      return res.status(200).json({ message: "Информация успешно обновлена" });
       }
     } catch (e) {
-      res.status(400).json({message: "Что-то не так... Возможно, не все поля заполнены или введён неверный пароль", e});
+      res.status(400).json({ message: "Что-то не так... Возможно, не все поля заполнены или введён неверный пароль", e });
     }
   }
 };

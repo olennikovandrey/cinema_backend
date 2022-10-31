@@ -2,7 +2,6 @@ const { Schema, model } = require("mongoose");
 
 const Cinema = new Schema({
   title: { type: String, required: true, unique: true },
-  location: { type: String, required: true },
   sessions: [
     {
       date: { type: String, required: true },
