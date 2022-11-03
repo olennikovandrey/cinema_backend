@@ -14,7 +14,7 @@ const start = async () => {
     await mongoose.connect("mongodb://localhost:27017/Cinema", { useUnifiedTopology: true, useNewUrlParser: true })
     .then(
       () => {
-        console.log("DB connected");
+        console.log("database connected");
         app.listen(4000, () => { console.log("Server OK") })
       },
       err => console.log(err)

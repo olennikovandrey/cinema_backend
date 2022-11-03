@@ -6,10 +6,8 @@ const Cinema = new Schema({
     {
       date: { type: String, required: true },
       time: { type: String, required: true },
-      movieId: { type: Schema.Types.ObjectId },
-      totalSeats: { type: Number, required: true },
-      vacancySeats: { type: Number },
-      busySeats: { type: Number },
+      roomId: { type: Schema.Types.ObjectId },
+      movieId: { type: Schema.Types.ObjectId }
     }
   ]
 })

@@ -1,6 +1,7 @@
 const User = require("../models/user.model");
 const Cinema = require("../models/cinema.model");
 const Movie = require("../models/movie.model");
+const Room = require("../models/room.model");
 
 class adminController {
   async getUsers(_, res) {
@@ -29,13 +30,13 @@ class adminController {
 
   async addCinema(req, res) {
     try {
-      const { title, location, sessions } = req.body;
+      const { title, sessions } = req.body;
       const candidate = await Cinema.findOne({ title });
       if (candidate) {
         return res.status(400).json({ message: "Такой кинотеатр уже существует" });
       };
 
-      const cinema = new Cinema({ title, location, sessions });
+      const cinema = new Cinema({ title, sessions });
       await cinema.save();
 
       return res.status(200).json({ message: "Кинотеатр успешно добавлен" });
@@ -69,12 +70,12 @@ class adminController {
   async deleteCinema(req, res) {
     try {
       const { title } = req.body;
-      const cinema = await Cinema.findOne({ title });
-      if (!cinema) {
-        return res.status(400).json({ message: "По Вашему запросу совпадений не найдено" });
-      }
-      await Cinema.deleteOne({ title });
-      return res.status(200).json({ message: "Кинотеатр успешно удален" });
+      const result = await Cinema.deleteOne({ title });
+      const cinemas = await Cinema.find();
+
+      return result.deletedCount ?
+        res.json({message: "Кинотеатр успешно удален", cinemas }) :
+        res.status(400).json({ message: "Что-то не так..." });
     } catch (e) {
       res.status(400).json({ message: "Что-то не так...", e });
     }
@@ -123,7 +124,8 @@ class adminController {
           }
         }
       );
-      return res.status(200).json({ message: "Информация о фильме успешно обновлена" });
+      const movies = await Movie.find();
+      return res.status(200).json({ message: "Информация о фильме успешно обновлена", movies });
     } catch (e) {
       console.log(e)
       return res.status(400).json({ message: "Что-то не так..." });
@@ -141,6 +143,19 @@ class adminController {
         res.status(400).json({ message: "Что-то не так..." });
     } catch (e) {
       res.status(400).json({ message: "Что-то не так...", e });
+    }
+  }
+
+  async addRoom(req, res) {
+    try {
+      const { title, seats } = req.body;
+      const room = new Room({ title, seats });
+      await room.save();
+
+      return res.status(200).json({ message: "Кинозал успешно добавлен" });
+    } catch (e) {
+      console.log(e);
+      res.status(400).json({ message: "Ошибка во время добавления кинозала. Возможно, не все обязательные поля заполнены", e });
     }
   }
 };

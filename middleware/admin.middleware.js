@@ -5,7 +5,7 @@ module.exports = (req, res, next) => {
   try {
     const token = req.headers.authorization.split(" ")[1];
     if (!token) {
-      return res.status(403).json({message: "User not authorized"});
+      return res.status(403).json({ message: "Вы не авторизованы" });
     }
     const decoded = jwt.verify(token, secret);
     let isAdmin = false;
@@ -13,10 +13,10 @@ module.exports = (req, res, next) => {
       isAdmin = true;
     };
     if (!isAdmin) {
-      return res.status(403).json({ massage: "You have no permission" });
+      return res.status(403).json({ massage: "У Вас недостаточно прав для этого" });
     };
     next();
   } catch (e) {
-    return res.status(403).json({ message: "User not authorized or have no permissions" });
+    return res.status(403).json({ message: "Вы не аторизованы или у Вас недостаточно для этого прав" });
   };
 };

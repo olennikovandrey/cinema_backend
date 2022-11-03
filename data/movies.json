@@ -1,0 +1,2052 @@
+[{
+  "_id": {
+    "$oid": "6350039f7fe76d7be145c6d5"
+  },
+  "title": "SuperАлиби",
+  "country": [
+    "Франция"
+  ],
+  "year": "2017",
+  "genre": [
+    "комедия"
+  ],
+  "slogan": "Лучшие отмазки на все случаи жизни!",
+  "producer": [
+    {
+      "name": "Филипп Лашо",
+      "link": "https://www.kinopoisk.ru/name/1964705/",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d6"
+      }
+    }
+  ],
+  "description": "35-летний Венсан Буато — убежденный холостяк, тренирующий школьную футбольную команду. Однажды судьба сводит его с племянником Лео, которому всего 13 лет. Лео — чемпион по шахматам, но при этом у него синдром Аспергера. Эта встреча заставляет Венсана переосмыслить многие вещи, а Лео позволяет открыть в себе новые таланты.",
+  "duration": "90 минут / 01:30",
+  "age": "18+",
+  "rating": "6.6",
+  "actors": [
+    {
+      "name": "Филипп Лашо",
+      "link": "https://www.kinopoisk.ru/name/1964705/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/12f1d9ce-9ca8-485e-a4ed-e56e8aee3625/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d7"
+      }
+    },
+    {
+      "name": "Элоди Фонтан",
+      "link": "https://www.kinopoisk.ru/name/267192/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/0543c82c-8bd3-4314-bffa-1f5fb3dc959f/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d8"
+      }
+    },
+    {
+      "name": "Жюльен Аррути",
+      "link": "https://www.kinopoisk.ru/name/2821680/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/d9e47bfd-7615-41bb-a4a9-80b43d280d07/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d9"
+      }
+    },
+    {
+      "name": "Тарек Будали",
+      "link": "https://www.kinopoisk.ru/name/1967900/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/7a39e436-b385-469e-b7df-597a889dd327/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6da"
+      }
+    },
+    {
+      "name": "Дидье Бурдон",
+      "link": "https://www.kinopoisk.ru/name/34758/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/f5ae29d6-e66b-4616-ace2-be04d6e2b912/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6db"
+      }
+    },
+    {
+      "name": "Натали Бай",
+      "link": "https://www.kinopoisk.ru/name/19577/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/1cf59446-12c6-4684-a3a1-42ba91f9f826/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6dc"
+      }
+    },
+    {
+      "name": "Науэлл Мадани",
+      "link": "https://www.kinopoisk.ru/name/2933541/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/aea83a97-b64b-4d54-9115-aaa9960e3b1a/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6dd"
+      }
+    },
+    {
+      "name": "Меди Садун",
+      "link": "https://www.kinopoisk.ru/name/2347928/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/ff561d20-3156-4553-95b7-87e80bc8b6d4/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6de"
+      }
+    },
+    {
+      "name": "Венсан Дезанья",
+      "link": "https://www.kinopoisk.ru/name/398661/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/4adc141d-9f65-46a3-bb22-30ee78871a10/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6df"
+      }
+    },
+    {
+      "name": "Элис Дюфур",
+      "link": "https://www.kinopoisk.ru/name/2555485/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/d7f098ac-8c45-4baa-ae36-ff2a080009ef/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6e0"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/de711786-785a-49fe-be88-7be9cafc622c/300x450",
+  "__v": 0,
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/lj3ADX_oSKI\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>",
+  "crop": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/2403226a-a754-4d98-b552-7d8fe79a3c2f/1920x"
+},{
+  "_id": {
+    "$oid": "635031c543028531e93f1f37"
+  },
+  "title": "Пятый элемент",
+  "country": [
+    "Франция",
+    "Великобритания"
+  ],
+  "year": "1997",
+  "genre": [
+    "фантастика",
+    "боевик",
+    "комедия",
+    "мелодрама"
+  ],
+  "slogan": "It Mu5t Be Found",
+  "producer": [
+    {
+      "name": "Люк Бессон",
+      "link": "https://www.kinopoisk.ru/name/24505/",
+      "_id": {
+        "$oid": "635031c543028531e93f1f38"
+      }
+    }
+  ],
+  "description": "35-летний Венсан Буато — убежденный холостяк, тренирующий школьную футбольную команду. Однажды судьба сводит его с племянником Лео, которому всего 13 лет. Лео — чемпион по шахматам, но при этом у него синдром Аспергера. Эта встреча заставляет Венсана переосмыслить многие вещи, а Лео позволяет открыть в себе новые таланты.",
+  "duration": "126 минут / 02:06",
+  "age": "16+",
+  "rating": "8.1",
+  "actors": [
+    {
+      "name": "Брюс Уиллис",
+      "link": "https://www.kinopoisk.ru/name/110/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/430cd7ca-cd5e-4017-a950-31f0e4eb6e4f/280x420",
+      "_id": {
+        "$oid": "635031c543028531e93f1f39"
+      }
+    },
+    {
+      "name": "Милла Йовович",
+      "link": "https://www.kinopoisk.ru/name/24507/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9011de67-c55e-447a-b5ad-5909262113c7/280x420",
+      "_id": {
+        "$oid": "635031c543028531e93f1f3a"
+      }
+    },
+    {
+      "name": "Гари Олдман",
+      "link": "https://www.kinopoisk.ru/name/6650/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/a01cdd29-ee1d-403c-ae01-99681419b1d3/280x420",
+      "_id": {
+        "$oid": "635031c543028531e93f1f3b"
+      }
+    },
+    {
+      "name": "Иэн Холм",
+      "link": "https://www.kinopoisk.ru/name/2440/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/c92e8963-6676-4697-843d-e2a01405474d/280x420",
+      "_id": {
+        "$oid": "635031c543028531e93f1f3c"
+      }
+    },
+    {
+      "name": "Крис Такер",
+      "link": "https://www.kinopoisk.ru/name/6742/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/a51add63-a707-4f73-988a-56ee9c3f5e30/280x420",
+      "_id": {
+        "$oid": "635031c543028531e93f1f3d"
+      }
+    },
+    {
+      "name": "Люк Перри",
+      "link": "https://www.kinopoisk.ru/name/2590/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/5fd84491-dabf-4f8b-a0ad-3576638a0843/280x420",
+      "_id": {
+        "$oid": "635031c543028531e93f1f3e"
+      }
+    },
+    {
+      "name": "Брайон Джеймс",
+      "link": "https://www.kinopoisk.ru/name/26751/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/3c8c15b7-419b-4696-9c77-88f1d6a64eef/280x420",
+      "_id": {
+        "$oid": "635031c543028531e93f1f3f"
+      }
+    },
+    {
+      "name": "Том ’Тайни’ Листер мл.",
+      "link": "https://www.kinopoisk.ru/name/2015/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/ca21b2b3-ddae-496e-8aa1-b47e8dec20e1/280x420",
+      "_id": {
+        "$oid": "635031c543028531e93f1f40"
+      }
+    },
+    {
+      "name": "Ли Эванс",
+      "link": "https://www.kinopoisk.ru/name/4059/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/d59f5430-d612-4748-8466-d4c66d3b52c4/280x420",
+      "_id": {
+        "$oid": "635031c543028531e93f1f41"
+      }
+    },
+    {
+      "name": "Чарли Крид-Майлз",
+      "link": "https://www.kinopoisk.ru/name/57654/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e4ac2041-74b1-4761-b034-ddec5ee5ad32/280x420",
+      "_id": {
+        "$oid": "635031c543028531e93f1f42"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/9e9e2b2c-a3c1-462e-8d84-e6a19fbe5b9c/300x450",
+  "__v": 0,
+  "crop": "https://oir.mobi/uploads/posts/2020-01/1578295503_27-74.jpg",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/T1QlRW1MJR8\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "635032da43028531e93f1f45"
+  },
+  "title": "Человек-паук: Нет пути домой",
+  "country": [
+    "США"
+  ],
+  "year": "2021",
+  "genre": [
+    "фантастика",
+    "боевик",
+    "приключения",
+    "фэнтези"
+  ],
+  "slogan": "The Multiverse Unleashed",
+  "producer": [
+    {
+      "name": "Джон Уоттс",
+      "link": "https://www.kinopoisk.ru/name/244443/",
+      "_id": {
+        "$oid": "635032da43028531e93f1f46"
+      }
+    }
+  ],
+  "description": "Жизнь и репутация Питера Паркера оказываются под угрозой, поскольку Мистерио раскрыл всему миру тайну личности Человека-паука. Пытаясь исправить ситуацию, Питер обращается за помощью к Стивену Стрэнджу, но вскоре всё становится намного опаснее.",
+  "duration": "148 минут / 02:28",
+  "age": "12+",
+  "rating": "8.0",
+  "actors": [
+    {
+      "name": "Том Холланд",
+      "link": "https://www.kinopoisk.ru/name/2280681/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9e38e7a7-0dc7-4e04-9a1d-a580ec1b4de4/280x420",
+      "_id": {
+        "$oid": "635032da43028531e93f1f47"
+      }
+    },
+    {
+      "name": "Зендея",
+      "link": "https://www.kinopoisk.ru/name/2317683/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/91834d09-743d-4533-a874-3a9c9cac09a2/280x420",
+      "_id": {
+        "$oid": "635032da43028531e93f1f48"
+      }
+    },
+    {
+      "name": "Бенедикт Камбербэтч",
+      "link": "https://www.kinopoisk.ru/name/34549/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2ebf1983-d840-4250-9f9c-fdaba8763c22/280x420",
+      "_id": {
+        "$oid": "635032da43028531e93f1f49"
+      }
+    },
+    {
+      "name": "Мариса Томей",
+      "link": "https://www.kinopoisk.ru/name/7837/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/a70c1db8-8cb2-44b3-9921-452557cb6daf/280x420",
+      "_id": {
+        "$oid": "635032da43028531e93f1f4a"
+      }
+    },
+    {
+      "name": "Уиллем Дефо",
+      "link": "https://www.kinopoisk.ru/name/9274/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/27dc7cb5-4364-4cb3-8420-6651dcdd1498/280x420",
+      "_id": {
+        "$oid": "635032da43028531e93f1f4b"
+      }
+    },
+    {
+      "name": "Альфред Молина",
+      "link": "https://www.kinopoisk.ru/name/6225/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/897b00fe-8144-48c9-8096-3b4fb6be23f1/280x420",
+      "_id": {
+        "$oid": "635032da43028531e93f1f4c"
+      }
+    },
+    {
+      "name": "Джейми Фокс",
+      "link": "https://www.kinopoisk.ru/name/514/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/962e6fd5-203c-4da1-a90c-312cc08e05bc/280x420",
+      "_id": {
+        "$oid": "635032da43028531e93f1f4d"
+      }
+    },
+    {
+      "name": "Томас Хейден Чёрч",
+      "link": "https://www.kinopoisk.ru/name/12841/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/7505579c-8130-45a4-a435-43cf86ee38c2/280x420",
+      "_id": {
+        "$oid": "635032da43028531e93f1f4e"
+      }
+    },
+    {
+      "name": "Рис Иванс",
+      "link": "https://www.kinopoisk.ru/name/7629/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/4e98506c-a577-47c9-a84d-8e8ad5d143fd/280x420",
+      "_id": {
+        "$oid": "635032da43028531e93f1f4f"
+      }
+    },
+    {
+      "name": "Джейкоб Баталон",
+      "link": "https://www.kinopoisk.ru/name/4449405/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/de5cea07-230f-4014-a755-8099d8f2eae1/280x420",
+      "_id": {
+        "$oid": "635032da43028531e93f1f50"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/731c4031-7389-44f4-8c15-f9f4e3b0ed90/300x450",
+  "__v": 0,
+  "crop": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/2dfda598-f565-438b-bf77-000acaf4167f/1920x",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/V0hagz_8L3M\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "6350345643028531e93f2009"
+  },
+  "title": "Интерстеллар",
+  "country": [
+    "США",
+    "Великобритания",
+    "Канада"
+  ],
+  "year": "2014",
+  "genre": [
+    "фантастика",
+    "драма",
+    "приключения"
+  ],
+  "slogan": "Следующий шаг человечества станет величайшим",
+  "producer": [
+    {
+      "name": "Кристофер Нолан",
+      "link": "https://www.kinopoisk.ru/name/41477/",
+      "_id": {
+        "$oid": "6350345643028531e93f200a"
+      }
+    }
+  ],
+  "description": "Когда засуха, пыльные бури и вымирание растений приводят человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и найти планету с подходящими для человечества условиями.",
+  "duration": "169 минут / 02:49",
+  "age": "16+",
+  "rating": "8.6",
+  "actors": [
+    {
+      "name": "Мэттью МакКонахи",
+      "link": "https://www.kinopoisk.ru/name/797/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/7b37ed50-2bb0-4f22-adba-d94023ed9a38/280x420",
+      "_id": {
+        "$oid": "6350345643028531e93f200b"
+      }
+    },
+    {
+      "name": "Энн Хэтэуэй",
+      "link": "https://www.kinopoisk.ru/name/38703/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/aa53725c-6099-4278-9bba-6d6bd2bc6998/280x420",
+      "_id": {
+        "$oid": "6350345643028531e93f200c"
+      }
+    },
+    {
+      "name": "Джессика Честейн",
+      "link": "https://www.kinopoisk.ru/name/1111242/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/35e92331-afe5-42cd-8df5-eeeab87c647a/280x420",
+      "_id": {
+        "$oid": "6350345643028531e93f200d"
+      }
+    },
+    {
+      "name": "Маккензи Фой",
+      "link": "https://www.kinopoisk.ru/name/2007922/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/b5931a08-d554-4141-af2f-d13f9ebde988/280x420",
+      "_id": {
+        "$oid": "6350345643028531e93f200e"
+      }
+    },
+    {
+      "name": "Майкл Кейн",
+      "link": "https://www.kinopoisk.ru/name/3711/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/991e300e-2663-444d-8c97-90ff4222bedb/280x420",
+      "_id": {
+        "$oid": "6350345643028531e93f200f"
+      }
+    },
+    {
+      "name": "Дэвид Гяси",
+      "link": "https://www.kinopoisk.ru/name/34831/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/cd0be687-292c-4746-b12d-1679fd697b37/280x420",
+      "_id": {
+        "$oid": "6350345643028531e93f2010"
+      }
+    },
+    {
+      "name": "Уэс Бентли",
+      "link": "https://www.kinopoisk.ru/name/3/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/4e822538-e18f-41ce-9b5e-bd0bcc965220/280x420",
+      "_id": {
+        "$oid": "6350345643028531e93f2011"
+      }
+    },
+    {
+      "name": "Кейси Аффлек",
+      "link": "https://www.kinopoisk.ru/name/4/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/09a6ecb6-052b-41fb-8323-1b95a10cb33a/280x420",
+      "_id": {
+        "$oid": "6350345643028531e93f2012"
+      }
+    },
+    {
+      "name": "Джон Литгоу",
+      "link": "https://www.kinopoisk.ru/name/8837/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c1d347eb-8d12-49c0-8c6b-0ca76f36dead/280x420",
+      "_id": {
+        "$oid": "6350345643028531e93f2013"
+      }
+    },
+    {
+      "name": "Мэтт Дэймон",
+      "link": "https://www.kinopoisk.ru/name/6458/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/1638c058-eec7-4d7c-acc9-2d2fe510fe62/280x420",
+      "_id": {
+        "$oid": "6350345643028531e93f2014"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/430042eb-ee69-4818-aed0-a312400a26bf/300x450",
+  "__v": 0,
+  "crop": "https://naked-science.ru/wp-content/uploads/2021/04/1_TSfkUTsHUK3ZD5MH-QRc_Q.jpeg",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/qcPfI0y7wRU\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "63506428763caee39653cd4f"
+  },
+  "title": "Большой куш",
+  "country": [
+    "Великобритания",
+    "США"
+  ],
+  "year": "2000",
+  "genre": [
+    "криминал",
+    "комедия",
+    "боевик"
+  ],
+  "slogan": "Stealing stones is hazardous",
+  "producer": [
+    {
+      "name": "Гай Ричи",
+      "link": "https://www.kinopoisk.ru/name/45159/",
+      "_id": {
+        "$oid": "63506428763caee39653cd50"
+      }
+    }
+  ],
+  "description": "Фрэнки Четыре Пальца должен был переправить краденый алмаз из Англии в США своему боссу Эви, но, сделав ставку на подпольный боксерский поединок, он попал в круговорот весьма нежелательных событий. Вокруг него и его груза разворачивается сложная интрига с участием множества колоритных персонажей лондонского дна — русского гангстера, троих незадачливых грабителей, хитрого боксера и угрюмого громилы грозного мафиози. Каждый норовит в одиночку сорвать большой куш.",
+  "duration": "104 минут / 01:44",
+  "age": "16+",
+  "rating": "8.5",
+  "actors": [
+    {
+      "name": "Джейсон Стэйтем",
+      "link": "https://www.kinopoisk.ru/name/1514/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/5c6d81b5-d31c-4389-89d0-4b554b82b68b/280x420",
+      "_id": {
+        "$oid": "63506428763caee39653cd51"
+      }
+    },
+    {
+      "name": "Стивен Грэм",
+      "link": "https://www.kinopoisk.ru/name/223/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/2cd23a54-6978-4d4b-a717-bdab2ace48da/280x420",
+      "_id": {
+        "$oid": "63506428763caee39653cd52"
+      }
+    },
+    {
+      "name": "Брэд Питт",
+      "link": "https://www.kinopoisk.ru/name/25584/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/7d4eb861-1f80-44da-b75e-7f365d0fc3da/280x420",
+      "_id": {
+        "$oid": "63506428763caee39653cd53"
+      }
+    },
+    {
+      "name": "Алан Форд",
+      "link": "https://www.kinopoisk.ru/name/56739/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9c1852ac-3e18-4997-baa1-e7ea175dcf9a/280x420",
+      "_id": {
+        "$oid": "63506428763caee39653cd54"
+      }
+    },
+    {
+      "name": "Робби Ги",
+      "link": "https://www.kinopoisk.ru/name/50526/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e48dc321-0b5f-4490-864e-a821a5d01929/280x420",
+      "_id": {
+        "$oid": "63506428763caee39653cd55"
+      }
+    },
+    {
+      "name": "Ленни Джеймс",
+      "link": "https://www.kinopoisk.ru/name/4065/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/41c59f40-9855-4379-88ca-d7117fcacb6b/280x420",
+      "_id": {
+        "$oid": "63506428763caee39653cd56"
+      }
+    },
+    {
+      "name": "Эд",
+      "link": "https://www.kinopoisk.ru/name/56741/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/75948b7d-8086-407c-864b-273119fbe479/280x420",
+      "_id": {
+        "$oid": "63506428763caee39653cd57"
+      }
+    },
+    {
+      "name": "Деннис Фарина",
+      "link": "https://www.kinopoisk.ru/name/10621/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/14ab1afd-1701-4e22-b106-7ee1a992995d/280x420",
+      "_id": {
+        "$oid": "63506428763caee39653cd58"
+      }
+    },
+    {
+      "name": "Раде Шербеджия",
+      "link": "https://www.kinopoisk.ru/name/20326/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/7e4f20a0-5991-4a3e-aae1-290f4d2e5b4d/280x420",
+      "_id": {
+        "$oid": "63506428763caee39653cd59"
+      }
+    },
+    {
+      "name": "Винни Джонс",
+      "link": "https://www.kinopoisk.ru/name/49131/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/c8f998de-d91d-40af-960c-be0624186f33/280x420",
+      "_id": {
+        "$oid": "63506428763caee39653cd5a"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/47fe48f6-ff17-4411-a12f-d337bea2639d/300x450",
+  "__v": 0,
+  "crop": "https://funart.pro/uploads/posts/2020-05/1590056722_6-p-bolshoi-kush-film-15.jpg",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/4W2B-gM4S2c\" title=\"YouTube video player\" frameorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "635288af8f78eede58bbf36e"
+  },
+  "title": "Джентльмены",
+  "country": [
+    "Великобритания",
+    "США"
+  ],
+  "year": "2019",
+  "genre": [
+    "криминал",
+    "комедия",
+    "боевик"
+  ],
+  "slogan": "Criminal. Class",
+  "producer": [
+    {
+      "_id": {
+        "$oid": "635416700a6c8f32aa2f4d42"
+      }
+    }
+  ],
+  "description": "Один ушлый американец ещё со студенческих лет приторговывал наркотиками, а теперь придумал схему нелегального обогащения с использованием поместий обедневшей английской аристократии и очень неплохо на этом разбогател. Другой пронырливый журналист приходит к Рэю, правой руке американца, и предлагает тому купить киносценарий, в котором подробно описаны преступления его босса при участии других представителей лондонского криминального мира — партнёра-еврея, китайской диаспоры, чернокожих спортсменов и даже русского олигарха.",
+  "duration": "113 минут / 01:53",
+  "age": "18+",
+  "rating": "8.5",
+  "actors": [
+    {
+      "name": "Мэттью МакКонахи",
+      "link": "https://www.kinopoisk.ru/name/797/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/7b37ed50-2bb0-4f22-adba-d94023ed9a38/280x420",
+      "_id": {
+        "$oid": "635288af8f78eede58bbf370"
+      }
+    },
+    {
+      "name": "Чарли Ханнэм",
+      "link": "https://www.kinopoisk.ru/name/38702/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/baa4ad7d-5bc9-4e16-9601-e17d88cff127/280x420",
+      "_id": {
+        "$oid": "635288af8f78eede58bbf371"
+      }
+    },
+    {
+      "name": "Генри Голдинг",
+      "link": "https://www.kinopoisk.ru/name/4950097/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/09e49291-3777-439c-bd9c-9136356431c8/280x420",
+      "_id": {
+        "$oid": "635288af8f78eede58bbf372"
+      }
+    },
+    {
+      "name": "Хью Грант",
+      "link": "https://www.kinopoisk.ru/name/8090/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/fb5ee940-bc7d-4eea-8567-7676e74a579b/280x420",
+      "_id": {
+        "$oid": "635288af8f78eede58bbf373"
+      }
+    },
+    {
+      "name": "Мишель Докери",
+      "link": "https://www.kinopoisk.ru/name/1067193/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/e8b7b19f-a53d-4f55-bbc0-3d3f93a15f4f/280x420",
+      "_id": {
+        "$oid": "635288af8f78eede58bbf374"
+      }
+    },
+    {
+      "name": "Джейсон Вонг",
+      "link": "https://www.kinopoisk.ru/name/2454111/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/c0a29909-0917-45be-8271-005163a337fe/280x420",
+      "_id": {
+        "$oid": "635288af8f78eede58bbf375"
+      }
+    },
+    {
+      "name": "Колин Фаррелл",
+      "link": "https://www.kinopoisk.ru/name/373/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/3f2f9413-89de-45f3-b766-fec003ebc684/280x420",
+      "_id": {
+        "$oid": "635288af8f78eede58bbf376"
+      }
+    },
+    {
+      "name": "Лин Рене",
+      "link": "https://www.kinopoisk.ru/name/1006787/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/7ab5f393-0896-4d8c-89d6-b24b600c1a24/280x420",
+      "_id": {
+        "$oid": "635288af8f78eede58bbf377"
+      }
+    },
+    {
+      "name": "Джереми Стронг",
+      "link": "https://www.kinopoisk.ru/name/1146480/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9f945634-e55b-4aa4-b106-6c7bd8d6c19a/280x420",
+      "_id": {
+        "$oid": "635288af8f78eede58bbf378"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/637271d5-61b4-4e46-ac83-6d07494c7645/300x450",
+  "__v": 0,
+  "crop": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/bf89f1c6-ee08-40ec-a8d8-5dead13790d9/1920x",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/Ify9S7hj480\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "6352abcf6e15ed8ebfd79c76"
+  },
+  "title": "Дьявол носит Prada",
+  "country": [
+    "США,",
+    "Франция"
+  ],
+  "year": "2006",
+  "genre": [
+    "драма",
+    "комедия"
+  ],
+  "slogan": "В этом сезоне дьявол придет на каблуках...",
+  "producer": [
+    {
+      "name": "Дэвид Фрэнкел",
+      "link": "https://www.kinopoisk.ru/name/93393/",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c77"
+      }
+    }
+  ],
+  "description": "Мечтающая стать журналисткой провинциальная девушка Энди по окончании университета получает должность помощницы всесильной Миранды Пристли, деспотичного редактора одного из крупнейших нью-йоркских журналов мод. Энди всегда мечтала о такой работе, не зная, с каким нервным напряжением это будет связано…",
+  "duration": "109 минут / 01:49",
+  "age": "16+",
+  "rating": "7.7",
+  "actors": [
+    {
+      "name": "Мэрил Стрип",
+      "link": "https://www.kinopoisk.ru/name/23100/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/c737ac10-e84e-4565-9b5f-40d1713f28b3/280x420",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c78"
+      }
+    },
+    {
+      "name": "Энн Хэтэуэй",
+      "link": "https://www.kinopoisk.ru/name/38703/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/aa53725c-6099-4278-9bba-6d6bd2bc6998/280x420",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c79"
+      }
+    },
+    {
+      "name": "Эмили Блант",
+      "link": "https://www.kinopoisk.ru/name/227068/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/6c2b1c0e-0ecb-4453-aa14-0d1cd4b09448/280x420",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c7a"
+      }
+    },
+    {
+      "name": "Стэнли Туччи",
+      "link": "https://www.kinopoisk.ru/name/12028/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/1872cfcd-88f7-4940-9f1c-a25301254ecb/280x420",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c7b"
+      }
+    },
+    {
+      "name": "Саймон Бейкер",
+      "link": "https://www.kinopoisk.ru/name/8518/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/390d8e62-9260-4da7-aeec-dd30d3b39e0e/280x420",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c7c"
+      }
+    },
+    {
+      "name": "Эдриан Гренье",
+      "link": "https://www.kinopoisk.ru/name/10383/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/ef776965-5229-4aa4-9e28-0a594a3aec09/280x420",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c7d"
+      }
+    },
+    {
+      "name": "Трейси Томс",
+      "link": "https://www.kinopoisk.ru/name/228014/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/9ecacd88-a2ae-4b2d-bec3-db8306d50146/280x420",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c7e"
+      }
+    },
+    {
+      "name": "Рич Соммер",
+      "link": "https://www.kinopoisk.ru/name/228414/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/8ab18ef6-7515-46b0-943f-e5d76e659460/280x420",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c7f"
+      }
+    },
+    {
+      "name": "Дэниел Сунджата",
+      "link": "https://www.kinopoisk.ru/name/38001/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/ba70c15e-88cf-4baf-a552-153021637a59/280x420",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c80"
+      }
+    },
+    {
+      "name": "Дэвид Маршалл Грант",
+      "link": "https://www.kinopoisk.ru/name/38614/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/65b69b9c-2ce1-4622-9ae8-a5bdba9aca7f/280x420",
+      "_id": {
+        "$oid": "6352abcf6e15ed8ebfd79c81"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/39a5e5e5-fea5-4c18-964e-40c4dfa7c995/300x450",
+  "__v": 0,
+  "crop": "https://funart.pro/uploads/posts/2020-07/1595522418_12-p-dyavol-nosit-prada-film-42.jpg",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/byudyLwXcN8\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "6352b83d027ef4aa5027d9af"
+  },
+  "title": "Начало",
+  "country": [
+    "США",
+    "Великобритания"
+  ],
+  "year": "2010",
+  "genre": [
+    "фантастика",
+    "боевик",
+    "триллер",
+    "драма",
+    "детектив"
+  ],
+  "slogan": "Твой разум - место преступления",
+  "producer": [
+    {
+      "name": "Кристофер Нолан",
+      "link": "https://www.kinopoisk.ru/name/41477/",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4dd1"
+      }
+    }
+  ],
+  "description": "Кобб – талантливый вор, лучший из лучших в опасном искусстве извлечения: он крадет ценные секреты из глубин подсознания во время сна, когда человеческий разум наиболее уязвим. Редкие способности Кобба сделали его ценным игроком в привычном к предательству мире промышленного шпионажа, но они же превратили его в извечного беглеца и лишили всего, что он когда-либо любил. И вот у Кобба появляется шанс исправить ошибки. Его последнее дело может вернуть все назад, но для этого ему нужно совершить невозможное – инициацию. Вместо идеальной кражи Кобб и его команда спецов должны будут провернуть обратное. Теперь их задача – не украсть идею, а внедрить ее. Если у них получится, это и станет идеальным преступлением. Но никакое планирование или мастерство не могут подготовить команду к встрече с опасным противником, который, кажется, предугадывает каждый их ход. Врагом, увидеть которого мог бы лишь Кобб.",
+  "duration": "148 минут / 02:28",
+  "age": "12+",
+  "rating": "8.7",
+  "actors": [
+    {
+      "name": "Леонардо ДиКаприо",
+      "link": "https://www.kinopoisk.ru/name/37859/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9c33caef-be28-4257-b7ed-a407698f1a32/280x420",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4dd2"
+      }
+    },
+    {
+      "name": "Джозеф Гордон-Левитт",
+      "link": "https://www.kinopoisk.ru/name/9867/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e63e5d24-843f-4266-a6ba-22d2c24ce5ce/280x420",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4dd3"
+      }
+    },
+    {
+      "name": "Эллиот Пейдж",
+      "link": "https://www.kinopoisk.ru/name/43503/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/b0fe1947-d384-416d-853b-3751b7bc7df3/280x420",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4dd4"
+      }
+    },
+    {
+      "name": "Том Харди",
+      "link": "https://www.kinopoisk.ru/name/39984/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/933167f5-f078-44b6-81f1-157c9c685ff8/280x420",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4dd5"
+      }
+    },
+    {
+      "name": "Кэн Ватанабэ",
+      "link": "https://www.kinopoisk.ru/name/30759/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e8dadadb-d507-47bc-bf7a-0fc23b2cc000/280x420",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4dd6"
+      }
+    },
+    {
+      "name": "Дилип Рао",
+      "link": "https://www.kinopoisk.ru/name/1234077/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/925ae10e-9382-4969-b090-4a6ed23fb681/280x420",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4dd7"
+      }
+    },
+    {
+      "name": "Киллиан Мёрфи",
+      "link": "https://www.kinopoisk.ru/name/5005/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/60c9b049-6177-463f-b518-40337fbeb681/280x420",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4dd8"
+      }
+    },
+    {
+      "name": "Том Беренджер",
+      "link": "https://www.kinopoisk.ru/name/6409/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/cb755fbf-a632-42bc-9165-563f5b37a5c2/280x420",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4dd9"
+      }
+    },
+    {
+      "name": "Марион Котийяр",
+      "link": "https://www.kinopoisk.ru/name/32545/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/4f281340-47ac-4e1d-b1a9-306214948cdd/280x420",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4dda"
+      }
+    },
+    {
+      "name": "Пит Постлетуэйт",
+      "link": "https://www.kinopoisk.ru/name/8634/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/6158b9cc-2b16-40d6-b588-356a31e806fa/280x420",
+      "_id": {
+        "$oid": "634ffd4c2e334c3eaaef4ddb"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/300x450",
+  "__v": 0,
+  "crop": "http://mnogo-smysla.ru/wp-content/uploads/2015/11/still-of-leonardo-dicaprio-tom-hardy-and-cillian-murphy-in-inception-2010-large-picture.jpg",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/RlKr_lO45Nc\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "6352b9bdc13f1dea5ebe814d"
+  },
+  "title": "Титаник",
+  "country": [
+    "США,",
+    "Мексика"
+  ],
+  "year": "1997",
+  "genre": [
+    "мелодрама",
+    "история",
+    "триллер",
+    "драма"
+  ],
+  "slogan": "Ничто на Земле не сможет разлучить их",
+  "producer": [
+    {
+      "name": "Джеймс Кэмерон",
+      "link": "https://www.kinopoisk.ru/name/27977/",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe814e"
+      }
+    }
+  ],
+  "description": "В первом и последнем плавании шикарного «Титаника» встречаются двое. Пассажир нижней палубы Джек выиграл билет в карты, а богатая наследница Роза отправляется в Америку, чтобы выйти замуж по расчёту. Чувства молодых людей только успевают расцвести, и даже не классовые различия создадут испытания влюблённым, а айсберг, вставший на пути считавшегося непотопляемым лайнера.",
+  "duration": "194 минут / 03:14",
+  "age": "12+",
+  "rating": "8.4",
+  "actors": [
+    {
+      "name": "Леонардо ДиКаприо",
+      "link": "https://www.kinopoisk.ru/name/37859/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/9c33caef-be28-4257-b7ed-a407698f1a32/280x420",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe814f"
+      }
+    },
+    {
+      "name": "Кейт Уинслет",
+      "link": "https://www.kinopoisk.ru/name/21709/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/ccc95063-3ec7-4f3a-95cb-78b72e2a5eac/280x420",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe8150"
+      }
+    },
+    {
+      "name": "Билли Зейн",
+      "link": "https://www.kinopoisk.ru/name/45019/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/11990edd-d0e5-4bfd-b68e-6146103922b5/280x420",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe8151"
+      }
+    },
+    {
+      "name": "Кэти Бейтс",
+      "link": "https://www.kinopoisk.ru/name/379/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/0e115086-c747-4c9f-ad00-949476795733/280x420",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe8152"
+      }
+    },
+    {
+      "name": "Фрэнсис Фишер",
+      "link": "https://www.kinopoisk.ru/name/22961/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/22954f19-f20e-4c34-86d9-792faa82070b/280x420",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe8153"
+      }
+    },
+    {
+      "name": "Глория Стюарт",
+      "link": "https://www.kinopoisk.ru/name/28522/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/737bfe40-490e-47c7-a214-1e41ae5d9ee4/280x420",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe8154"
+      }
+    },
+    {
+      "name": "Билл Пэкстон",
+      "link": "https://www.kinopoisk.ru/name/985/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/62d983f5-03a8-44f4-b91c-b53af7494523/280x420",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe8155"
+      }
+    },
+    {
+      "name": "Бернард Хилл",
+      "link": "https://www.kinopoisk.ru/name/13143/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/92e85f70-aef0-4f56-992f-a5c007b2a0c4/280x420",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe8156"
+      }
+    },
+    {
+      "name": " Дэвид Уорнер",
+      "link": "https://www.kinopoisk.ru/name/18233/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/2435585c-54fa-4f84-bd50-1ba30aef7f77/280x420",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe8157"
+      }
+    },
+    {
+      "name": " Виктор Гарбер",
+      "link": "https://www.kinopoisk.ru/name/41169/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/52b76a7e-79a5-44a5-9d69-b05ca4a6eb36/280x420",
+      "_id": {
+        "$oid": "6352b9bdc13f1dea5ebe8158"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/96d93e3a-fdbf-4b6f-b02d-2fc9c2648a18/300x450",
+  "__v": 0,
+  "crop": "https://funart.pro/uploads/posts/2020-05/1590054375_3-p-titanik-film-15.jpg",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/qFjyxJ21VJY\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "6352ba01027ef4aa5027d9b0"
+  },
+  "title": "Меч короля Артура",
+  "country": [
+    "США",
+    "Великобритания",
+    "Австралия"
+  ],
+  "year": "2017",
+  "genre": [
+    "фэнтези",
+    "боевик",
+    "драма",
+    "приключения"
+  ],
+  "slogan": "Рожден быть королем",
+  "producer": [
+    {
+      "name": "Гай Ричи",
+      "link": "https://www.kinopoisk.ru/name/45159/",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f41"
+      }
+    }
+  ],
+  "description": "Молодой Артур живёт на задворках Лондиниума вместе со своей бандой. Он и понятия не имел о собственном королевском происхождении, пока однажды не взял в руки меч Экскалибур. Меч начинает менять Артура. В результате он присоединяется к сопротивлению и таинственной молодой девушке по имени Гвиневра. Ему предстоит научиться понимать магическое оружие, которым он овладел, преодолеть себя и объединить народ в борьбе против диктатора Вортигерна, убившего его родителей и завладевшего короной.",
+  "duration": "126 минут / 02:06",
+  "age": "16+",
+  "rating": "7.2",
+  "actors": [
+    {
+      "name": "Чарли Ханнэм",
+      "link": "https://www.kinopoisk.ru/name/38702/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/baa4ad7d-5bc9-4e16-9601-e17d88cff127/280x420",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f42"
+      }
+    },
+    {
+      "name": "Астрид Берже-Фрисби",
+      "link": "https://www.kinopoisk.ru/name/1508038/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/f374724a-5053-45f0-bd73-13bfc90110e9/280x420",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f43"
+      }
+    },
+    {
+      "name": "Джуд Лоу",
+      "link": "https://www.kinopoisk.ru/name/15703/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/e189f068-dca4-442e-b89c-3e921024c860/280x420",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f44"
+      }
+    },
+    {
+      "name": "Джимон Хонсу",
+      "link": "https://www.kinopoisk.ru/name/10024/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/30d15adb-d693-4c51-b102-2c82901e7396/280x420",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f45"
+      }
+    },
+    {
+      "name": "Эрик Бана",
+      "link": "https://www.kinopoisk.ru/name/11215/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/7d056cee-e667-4493-867b-926b4428009a/280x420",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f46"
+      }
+    },
+    {
+      "name": "Эйдан Гиллен",
+      "link": "https://www.kinopoisk.ru/name/29856/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/b509c9ff-e4fa-4975-abb7-8f12d54e1bc4/280x420",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f47"
+      }
+    },
+    {
+      "name": "Фредди Фокс",
+      "link": "https://www.kinopoisk.ru/name/1849518/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/831a1a73-c5b9-42ff-9bc3-0262a94d486d/280x420",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f48"
+      }
+    },
+    {
+      "name": "Крэйг МакГинли",
+      "link": "https://www.kinopoisk.ru/name/3798486/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/a279560c-a32b-4e17-bd45-782ce6b592c3/280x420",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f49"
+      }
+    },
+    {
+      "name": "Том У",
+      "link": "https://www.kinopoisk.ru/name/25964/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/a9f40b15-dfea-4ac1-8fbb-338ab7c37ec2/280x420",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f4a"
+      }
+    },
+    {
+      "name": "Кингсли Бен-Адир",
+      "link": "https://www.kinopoisk.ru/name/2605729/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/1753f516-2ce4-496f-ac4b-5c2dab251df7/280x420",
+      "_id": {
+        "$oid": "634fff3450ab6211c6a81f4b"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/233b6356-b3b1-4d14-a7a5-f098371b2939/300x450",
+  "__v": 0,
+  "crop": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/c7403c05-6028-4a95-9084-8da16b8662a7/1920x",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/tVSeAa7VmNo\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "6352ba64027ef4aa5027d9b1"
+  },
+  "title": "Скрижали судьбы",
+  "country": [
+    "Ирлиндия"
+  ],
+  "year": "2016",
+  "genre": [
+    "драма",
+    "мелодрама"
+  ],
+  "slogan": "Time doesn't forget",
+  "producer": [
+    {
+      "name": "Джим Шеридан",
+      "link": "https://www.kinopoisk.ru/name/16216/",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f74"
+      }
+    }
+  ],
+  "description": "Розанна Макналти, в молодости — неотразимая жизнелюбивая красавица, большую часть жизни провела в психиатрической клинике. Розанна находилась за решеткой так долго, что уже никто не помнил, почему она там оказалась. Когда в клинике появился известный психиатр доктор Грин, судьба загадочной пациентки вызвала у него особый интерес. Однажды Грин обнаружил спрятанный дневник Розанны. В течение нескольких десятилетий она записывала свои воспоминания в виде обрывочных фраз. В них — тайна её заключения и рассказ о поразительной жизни и всепоглощающей любви, страстной, мучительной, трагической.",
+  "duration": "108 минут / 01:48",
+  "age": "16+",
+  "rating": "7.2",
+  "actors": [
+    {
+      "name": "Руни Мара",
+      "link": "https://www.kinopoisk.ru/name/905667/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/bf675764-783e-4303-aedb-248b970de1f4/280x420",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f75"
+      }
+    },
+    {
+      "name": "Тео Джеймс",
+      "link": "https://www.kinopoisk.ru/name/2144867/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/b3b1b24b-e1d6-4709-b39b-f213c694037c/280x420",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f76"
+      }
+    },
+    {
+      "name": "Эрик Бана",
+      "link": "https://www.kinopoisk.ru/name/11215/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/7d056cee-e667-4493-867b-926b4428009a/280x420",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f77"
+      }
+    },
+    {
+      "name": "Эйдан Тёрнер",
+      "link": "https://www.kinopoisk.ru/name/1426162/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/b29ae3b0-9eae-4ae0-86c3-c3ab6e19bfbc/280x420",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f78"
+      }
+    },
+    {
+      "name": "Ванесса Редгрейв",
+      "link": "https://www.kinopoisk.ru/name/7921/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2e36ca2c-d52b-4ca5-a72e-82d32c5c4a65/280x420",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f79"
+      }
+    },
+    {
+      "name": "Джек Рейнор",
+      "link": "https://www.kinopoisk.ru/name/1611686/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/c5e74577-bafb-4284-bedb-f59af5c1832f/280x420",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f7a"
+      }
+    },
+    {
+      "name": "Полин Маклин",
+      "link": "https://www.kinopoisk.ru/name/7592/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/2154f473-1df7-44fe-ba82-c8ddca39b8a0/280x420",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f7b"
+      }
+    },
+    {
+      "name": "Сьюзен Линч",
+      "link": "https://www.kinopoisk.ru/name/7586/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/f4ffaa72-b932-426f-b001-f4f33d7b02fb/280x420",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f7c"
+      }
+    },
+    {
+      "name": "Эдриан Данбар",
+      "link": "https://www.kinopoisk.ru/name/5004/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/d2cef816-2f79-464b-ae9d-f9cba9ba53db/280x420",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f7d"
+      }
+    },
+    {
+      "name": "Том Вон-Лолор",
+      "link": "https://www.kinopoisk.ru/name/1202363/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/d817b57b-e925-4a24-b07e-67e475494b8d/280x420",
+      "_id": {
+        "$oid": "6350011350ab6211c6a81f7e"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/40e9afdb-94eb-4065-a914-29d3b4776696/300x450",
+  "__v": 0,
+  "crop": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/0e849b96-8945-4de3-b4f6-ba62c2016c47/1920x",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/DDkgVNiS0QE\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "6353dd4067d07136e7319d8f"
+  },
+  "title": "SuperАлиби1",
+  "country": [
+    "США",
+    "Великобритания",
+    "Франция"
+  ],
+  "year": "20001fsdbg",
+  "genre": [
+    "комедия1sdf"
+  ],
+  "slogan": "Лучшие отмазки на все случаи жизни!jkhkhj",
+  "producer": [
+    {
+      "_id": {
+        "$oid": "6354877aa219017d614bc5cc"
+      }
+    }
+  ],
+  "description": "35-летний Венсан Буато — убежденный холостяк, тренирующий школьную футбольную команду. Однажды судьба сводит его с племянником Лео, которому всего 13 лет. Лео — чемпион по шахматам, но при этом у него синдром Аспергера. Эта встреча заставляет Венсана переосмыслить многие вещи, а Лео позволяет открыть в себе новые таланты.",
+  "duration": "ывываыhjkва",
+  "age": "10+hjk",
+  "rating": "6.6hjk",
+  "actors": [
+    {
+      "name": "Филипп Лашо",
+      "link": "https://www.kinopoisk.ru/name/1964705/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/12f1d9ce-9ca8-485e-a4ed-e56e8aee3625/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d7"
+      }
+    },
+    {
+      "name": "Элоди Фонтан",
+      "link": "https://www.kinopoisk.ru/name/267192/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/0543c82c-8bd3-4314-bffa-1f5fb3dc959f/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d8"
+      }
+    },
+    {
+      "name": "Жюльен Аррути",
+      "link": "https://www.kinopoisk.ru/name/2821680/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/d9e47bfd-7615-41bb-a4a9-80b43d280d07/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d9"
+      }
+    },
+    {
+      "name": "Тарек Будали",
+      "link": "https://www.kinopoisk.ru/name/1967900/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/7a39e436-b385-469e-b7df-597a889dd327/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6da"
+      }
+    },
+    {
+      "name": "Дидье Бурдон",
+      "link": "https://www.kinopoisk.ru/name/34758/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/f5ae29d6-e66b-4616-ace2-be04d6e2b912/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6db"
+      }
+    },
+    {
+      "name": "Натали Бай",
+      "link": "https://www.kinopoisk.ru/name/19577/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/1cf59446-12c6-4684-a3a1-42ba91f9f826/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6dc"
+      }
+    },
+    {
+      "name": "Науэлл Мадани",
+      "link": "https://www.kinopoisk.ru/name/2933541/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/aea83a97-b64b-4d54-9115-aaa9960e3b1a/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6dd"
+      }
+    },
+    {
+      "name": "Меди Садун",
+      "link": "https://www.kinopoisk.ru/name/2347928/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/ff561d20-3156-4553-95b7-87e80bc8b6d4/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6de"
+      }
+    },
+    {
+      "name": "Венсан Дезанья",
+      "link": "https://www.kinopoisk.ru/name/398661/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/4adc141d-9f65-46a3-bb22-30ee78871a10/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6df"
+      }
+    },
+    {
+      "name": "Элис Дюфур",
+      "link": "https://www.kinopoisk.ru/name/2555485/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/d7f098ac-8c45-4baa-ae36-ff2a080009ef/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6e0"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/de711786-785a-49fe-be88-7be9cafc622c/300x450",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6354015f67d07136e7319d90"
+  },
+  "title": "A1",
+  "country": [
+    "Франция"
+  ],
+  "year": "2017",
+  "genre": [
+    "комедия"
+  ],
+  "slogan": "Лучшие отмазки на все случаи жизни!",
+  "producer": [
+    {
+      "name": "Филипп Лашо",
+      "link": "https://www.kinopoisk.ru/name/1964705/",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d6"
+      }
+    }
+  ],
+  "description": "35-летний Венсан Буато — убежденный холостяк, тренирующий школьную футбольную команду. Однажды судьба сводит его с племянником Лео, которому всего 13 лет. Лео — чемпион по шахматам, но при этом у него синдром Аспергера. Эта встреча заставляет Венсана переосмыслить многие вещи, а Лео позволяет открыть в себе новые таланты.",
+  "duration": "90 минут / 01:30",
+  "age": "18+",
+  "rating": "6.6",
+  "actors": [
+    {
+      "name": "Филипп Лашо",
+      "link": "https://www.kinopoisk.ru/name/1964705/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/12f1d9ce-9ca8-485e-a4ed-e56e8aee3625/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d7"
+      }
+    },
+    {
+      "name": "Элоди Фонтан",
+      "link": "https://www.kinopoisk.ru/name/267192/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/0543c82c-8bd3-4314-bffa-1f5fb3dc959f/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d8"
+      }
+    },
+    {
+      "name": "Жюльен Аррути",
+      "link": "https://www.kinopoisk.ru/name/2821680/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/d9e47bfd-7615-41bb-a4a9-80b43d280d07/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d9"
+      }
+    },
+    {
+      "name": "Тарек Будали",
+      "link": "https://www.kinopoisk.ru/name/1967900/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/7a39e436-b385-469e-b7df-597a889dd327/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6da"
+      }
+    },
+    {
+      "name": "Дидье Бурдон",
+      "link": "https://www.kinopoisk.ru/name/34758/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/f5ae29d6-e66b-4616-ace2-be04d6e2b912/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6db"
+      }
+    },
+    {
+      "name": "Натали Бай",
+      "link": "https://www.kinopoisk.ru/name/19577/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/1cf59446-12c6-4684-a3a1-42ba91f9f826/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6dc"
+      }
+    },
+    {
+      "name": "Науэлл Мадани",
+      "link": "https://www.kinopoisk.ru/name/2933541/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/aea83a97-b64b-4d54-9115-aaa9960e3b1a/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6dd"
+      }
+    },
+    {
+      "name": "Меди Садун",
+      "link": "https://www.kinopoisk.ru/name/2347928/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/ff561d20-3156-4553-95b7-87e80bc8b6d4/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6de"
+      }
+    },
+    {
+      "name": "Венсан Дезанья",
+      "link": "https://www.kinopoisk.ru/name/398661/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/4adc141d-9f65-46a3-bb22-30ee78871a10/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6df"
+      }
+    },
+    {
+      "name": "Элис Дюфур",
+      "link": "https://www.kinopoisk.ru/name/2555485/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/d7f098ac-8c45-4baa-ae36-ff2a080009ef/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6e0"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/de711786-785a-49fe-be88-7be9cafc622c/300x450",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6354016967d07136e7319d91"
+  },
+  "title": "B1",
+  "country": [
+    "США",
+    "Великобритания",
+    "Франция",
+    "Германия"
+  ],
+  "year": "2000d",
+  "genre": [
+    "комедия"
+  ],
+  "slogan": "Лучшие отмазки на все случаи жизни!",
+  "producer": [
+    {
+      "_id": {
+        "$oid": "6354860ba219017d614bc1f5"
+      }
+    }
+  ],
+  "description": "35-летний Венсан Буато — убежденный холостяк, тренирующий школьную футбольную команду. Однажды судьба сводит его с племянником Лео, которому всего 13 лет. Лео — чемпион по шахматам, но при этом у него синдром Аспергера. Эта встреча заставляет Венсана переосмыслить многие вещи, а Лео позволяет открыть в себе новые таланты.",
+  "duration": "91 минут / 01:31",
+  "age": "10+",
+  "rating": "6.6",
+  "actors": [
+    {
+      "name": "Филипп Лашо",
+      "link": "https://www.kinopoisk.ru/name/1964705/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/12f1d9ce-9ca8-485e-a4ed-e56e8aee3625/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d7"
+      }
+    },
+    {
+      "name": "Элоди Фонтан",
+      "link": "https://www.kinopoisk.ru/name/267192/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/0543c82c-8bd3-4314-bffa-1f5fb3dc959f/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d8"
+      }
+    },
+    {
+      "name": "Жюльен Аррути",
+      "link": "https://www.kinopoisk.ru/name/2821680/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/d9e47bfd-7615-41bb-a4a9-80b43d280d07/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6d9"
+      }
+    },
+    {
+      "name": "Тарек Будали",
+      "link": "https://www.kinopoisk.ru/name/1967900/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/7a39e436-b385-469e-b7df-597a889dd327/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6da"
+      }
+    },
+    {
+      "name": "Дидье Бурдон",
+      "link": "https://www.kinopoisk.ru/name/34758/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/f5ae29d6-e66b-4616-ace2-be04d6e2b912/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6db"
+      }
+    },
+    {
+      "name": "Натали Бай",
+      "link": "https://www.kinopoisk.ru/name/19577/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/1cf59446-12c6-4684-a3a1-42ba91f9f826/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6dc"
+      }
+    },
+    {
+      "name": "Науэлл Мадани",
+      "link": "https://www.kinopoisk.ru/name/2933541/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/aea83a97-b64b-4d54-9115-aaa9960e3b1a/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6dd"
+      }
+    },
+    {
+      "name": "Меди Садун",
+      "link": "https://www.kinopoisk.ru/name/2347928/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/ff561d20-3156-4553-95b7-87e80bc8b6d4/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6de"
+      }
+    },
+    {
+      "name": "Венсан Дезанья",
+      "link": "https://www.kinopoisk.ru/name/398661/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/4adc141d-9f65-46a3-bb22-30ee78871a10/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6df"
+      }
+    },
+    {
+      "name": "Элис Дюфур",
+      "link": "https://www.kinopoisk.ru/name/2555485/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/d7f098ac-8c45-4baa-ae36-ff2a080009ef/280x420",
+      "_id": {
+        "$oid": "6350039f7fe76d7be145c6e0"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/de711786-785a-49fe-be88-7be9cafc622c/300x450",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635431730a6c8f32aa2f5e9e"
+  },
+  "title": "Главный герой",
+  "country": [
+    "США"
+  ],
+  "year": "2021",
+  "genre": [
+    "фантастика",
+    "боевик",
+    "комедия",
+    "мелодрама"
+  ],
+  "slogan": "Жизнь слишком коротка, чтобы быть на вторых ролях",
+  "producer": [
+    {
+      "name": "Шон Леви",
+      "link": "https://www.kinopoisk.ru/name/31245/",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5e9f"
+      }
+    }
+  ],
+  "description": "Парень по имени Парень счастлив. Он живет в лучшем в мире городе Городе, работает на лучшей в мире работе в Банке и дружит с охранником по имени Приятель. И его совершенно не волнует, что Банк грабят по нескольку раз на дню, а улицы Города напоминают зону военных действий. Единственное, чего Парню не хватает для полного счастья — идеальной девушки, к которой у него имеется точный список требований. И вот однажды он видит на улице красотку, точь-в-точь как в его мечтах. Эта встреча изменит не только нашего главного героя, но и перевернёт весь известный ему мир.",
+  "duration": "115 минут / 01:55",
+  "age": "16+",
+  "rating": "7.4",
+  "actors": [
+    {
+      "name": "Райан Рейнольдс",
+      "link": "https://www.kinopoisk.ru/name/26612/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c7487a56-2e0c-4004-85fe-2033b8e571f3/280x420",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5ea0"
+      }
+    },
+    {
+      "name": "Джоди Комер",
+      "link": "https://www.kinopoisk.ru/name/2028846/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/2c4769df-c766-4014-8613-1b5509ca9b7e/280x420",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5ea1"
+      }
+    },
+    {
+      "name": "Лил Рел Ховери",
+      "link": "https://www.kinopoisk.ru/name/1453385/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/7b6784fb-8bdf-4f67-a6ef-bd9ae93f7501/280x420",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5ea2"
+      }
+    },
+    {
+      "name": "Джо Кири",
+      "link": "https://www.kinopoisk.ru/name/3851729/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/2f0a0adb-3731-4e57-a149-53d9cccb7a53/280x420",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5ea3"
+      }
+    },
+    {
+      "name": "Уткарш Амбудкар",
+      "link": "https://www.kinopoisk.ru/name/1053811/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/ea840337-135f-4f9f-b7a7-58c8e529fe07/280x420",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5ea4"
+      }
+    },
+    {
+      "name": "Тайка Вайтити",
+      "link": "https://www.kinopoisk.ru/name/242662/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/6a1d378a-946e-406f-ae7e-aea3b072c089/280x420",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5ea5"
+      }
+    },
+    {
+      "name": "Ченнинг Татум",
+      "link": "https://www.kinopoisk.ru/name/475804/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/f7972756-eee0-4a34-81af-280d6ca0e0af/280x420",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5ea6"
+      }
+    },
+    {
+      "name": "Аарон В Рид",
+      "link": "https://www.kinopoisk.ru/name/5663991/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/00f65fb0-8369-4d85-bd6c-c186d4226407/280x420",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5ea7"
+      }
+    },
+    {
+      "name": "Бритни Олдфорд",
+      "link": "https://www.kinopoisk.ru/name/2344688/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/746564fa-4fcc-42ca-9144-37daf4ef41d4/280x420",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5ea8"
+      }
+    },
+    {
+      "name": "Камилль Костек",
+      "link": "https://www.kinopoisk.ru/name/5045272/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/08db2ce9-66c7-47ca-bb91-e302f8a3583b/280x420",
+      "_id": {
+        "$oid": "635431730a6c8f32aa2f5ea9"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/c7fc3963-503d-4d80-b7de-18dba9ed5252/1920x",
+  "__v": 0,
+  "crop": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/64df73c4-04c9-4d41-9182-aea70c9aa49d/1920x",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/wnS4A5-vtFA\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "635432d40a6c8f32aa2f6368"
+  },
+  "title": "Гладиатор",
+  "country": [
+    "США",
+    "Великобритания",
+    "Мальта",
+    "Марокко"
+  ],
+  "year": "2000",
+  "genre": [
+    "история",
+    "боевик",
+    "драма",
+    "приключения"
+  ],
+  "slogan": "Генерал, ставший рабом. Раб, ставший гладиатором. Гладиатор, бросивший вызов империи",
+  "producer": [
+    {
+      "name": "Ридли Скотт",
+      "link": "https://www.kinopoisk.ru/name/10015/",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f6369"
+      }
+    }
+  ],
+  "description": "В великой Римской империи не было военачальника, равного генералу Максимусу. Непобедимые легионы, которыми командовал этот благородный воин, боготворили его и могли последовать за ним даже в ад. \n Но случилось так, что отважный Максимус, готовый сразиться с любым противником в честном бою, оказался бессилен против вероломных придворных интриг. Генерала предали и приговорили к смерти. Чудом избежав гибели, Максимус становится гладиатором. \n Быстро снискав себе славу в кровавых поединках, он оказывается в знаменитом римском Колизее, на арене которого он встретится в смертельной схватке со своим заклятым врагом...",
+  "duration": "155 минут / 02:35",
+  "age": "16+",
+  "rating": "8.6",
+  "actors": [
+    {
+      "name": " Рассел Кроу",
+      "link": "https://www.kinopoisk.ru/name/10019/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/b2c6572a-e034-4607-9025-a59173064642/280x420",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f636a"
+      }
+    },
+    {
+      "name": "Хоакин Феникс",
+      "link": "https://www.kinopoisk.ru/name/10020/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/85880973-3516-4ad5-91ae-c9ead4d10f77/280x420",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f636b"
+      }
+    },
+    {
+      "name": "Конни Нильсен",
+      "link": "https://www.kinopoisk.ru/name/7988/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c08d78d5-1a7c-4015-958b-b6a346ea7dac/280x420",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f636c"
+      }
+    },
+    {
+      "name": "Ричард Харрис",
+      "link": "https://www.kinopoisk.ru/name/10022/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/b7268070-bfc9-4319-b7b7-c0553711cdac/280x420",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f636d"
+      }
+    },
+    {
+      "name": "Дерек Джекоби",
+      "link": "https://www.kinopoisk.ru/name/10023/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/6fa16d8a-c1de-4ad6-8b2b-3b9dabd213e9/280x420",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f636e"
+      }
+    },
+    {
+      "name": "Джимон Хонсу",
+      "link": "https://www.kinopoisk.ru/name/10024/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/30d15adb-d693-4c51-b102-2c82901e7396/280x420",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f636f"
+      }
+    },
+    {
+      "name": "Дэвид Скофилд",
+      "link": "https://www.kinopoisk.ru/name/10025/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e2fe3b05-d932-4e67-89a8-786cd81d1cf8/280x420",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f6370"
+      }
+    },
+    {
+      "name": "Джон Шрэпнел",
+      "link": "https://www.kinopoisk.ru/name/10026/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/65113b4f-34f3-4e38-bf2f-7a82cba122cc/280x420",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f6371"
+      }
+    },
+    {
+      "name": " Томас Арана",
+      "link": "https://www.kinopoisk.ru/name/2979/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/184adb09-716b-4564-892d-7ae105a72466/280x420",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f6372"
+      }
+    },
+    {
+      "name": "Оливер Рид",
+      "link": "https://www.kinopoisk.ru/name/10021/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/14b9c344-6a6c-4750-b30f-f40a2c4eacb1/280x420",
+      "_id": {
+        "$oid": "635432d40a6c8f32aa2f6373"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/7c3460dc-344d-433f-8220-f18d86c8397d/300x450",
+  "__v": 0,
+  "crop": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/f4915684-b462-456b-962f-54d53fb73f79/1920x",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/F2Dr7Qb2Zf8\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "6354342a0a6c8f32aa2f6704"
+  },
+  "title": "Назад в будущее",
+  "country": [
+    "США"
+  ],
+  "year": "1985",
+  "genre": [
+    "фантастика",
+    "комедия",
+    "приключения"
+  ],
+  "slogan": "Семнадцатилетний Марти МакФлай пришел вчера домой пораньше. На 30 лет раньше",
+  "producer": [
+    {
+      "name": "Роберт Земекис",
+      "link": "https://www.kinopoisk.ru/name/2435/",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f6705"
+      }
+    }
+  ],
+  "description": "Подросток Марти с помощью машины времени, сооружённой его другом-профессором доком Брауном, попадает из 80-х в далекие 50-е. Там он встречается со своими будущими родителями, ещё подростками, и другом-профессором, совсем молодым.",
+  "duration": "116 минут / 01:56",
+  "age": "12+",
+  "rating": "8.6",
+  "actors": [
+    {
+      "name": "Майкл Дж. Фокс",
+      "link": "https://www.kinopoisk.ru/name/181/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/9fe88f52-8452-4d38-b698-536b1af91439/280x420",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f6706"
+      }
+    },
+    {
+      "name": "Кристофер Ллойд",
+      "link": "https://www.kinopoisk.ru/name/3514/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/7d61330c-de65-4b60-a225-03ce35269c30/280x420",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f6707"
+      }
+    },
+    {
+      "name": "Лиа Томпсон",
+      "link": "https://www.kinopoisk.ru/name/77429/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/a88e6762-a09d-444d-ace5-c94497c58f00/280x420",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f6708"
+      }
+    },
+    {
+      "name": "Криспин Гловер",
+      "link": "https://www.kinopoisk.ru/name/3558/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/0d5ade21-1c16-4ab1-8d17-d8de3ed092af/280x420",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f6709"
+      }
+    },
+    {
+      "name": "Томас Ф. Уилсон",
+      "link": "https://www.kinopoisk.ru/name/70021/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c87d5f0c-8127-4d5c-8a0d-ae1397b9ef81/280x420",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f670a"
+      }
+    },
+    {
+      "name": "Клаудия Уэллс",
+      "link": "https://www.kinopoisk.ru/name/152914/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/25484d9b-f098-4793-8b46-58018e763b7d/280x420",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f670b"
+      }
+    },
+    {
+      "name": "Марк МакКлюр",
+      "link": "https://www.kinopoisk.ru/name/2648/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/d3d928f4-a794-4907-85c2-58a17e2a8c47/280x420",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f670c"
+      }
+    },
+    {
+      "name": "Уэнди Джо Спербер",
+      "link": "https://www.kinopoisk.ru/name/45334/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/77e43cb7-932f-4b13-9a2d-020d40fa4f74/280x420",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f670d"
+      }
+    },
+    {
+      "name": "Джордж ДиЧенцо",
+      "link": "https://www.kinopoisk.ru/name/65045/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/5a511d69-fbc1-43bc-afcf-dbddea0dae9a/280x420",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f670e"
+      }
+    },
+    {
+      "name": "Фрэнсис Ли МакКейн",
+      "link": "https://www.kinopoisk.ru/name/22972/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/d2944df5-b358-48f0-9de9-ad50f0160cfc/280x420",
+      "_id": {
+        "$oid": "6354342a0a6c8f32aa2f670f"
+      }
+    }
+  ],
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/e0290535-32bc-419f-bb6f-389bf574f4a6/1920x",
+  "__v": 0,
+  "crop": "https://takiedela.ru/wp-content/uploads/2021/01/EN_01256542_0117.jpg",
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/OCtt7giwbi0\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>"
+},{
+  "_id": {
+    "$oid": "6355dfbba65e4b841a2006c0"
+  },
+  "title": "Счастливое число Слевина",
+  "country": [
+    "США",
+    "Канад",
+    "Великобритания",
+    "Германия"
+  ],
+  "year": "2005",
+  "genre": [
+    "триллер",
+    "драма",
+    "криминал"
+  ],
+  "slogan": "Не тот номер. Не в том месте. Не в то время",
+  "producer": [
+    {
+      "name": "Пол Макгиган",
+      "link": "https://www.kinopoisk.ru/name/14359/",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006c1"
+      }
+    }
+  ],
+  "description": "Слевину не везет. Дом опечатан, девушка ушла к другому… Его друг Ник уезжает из Нью-Йорка и предлагает Слевину пожить в пустой квартире. В это время крупный криминальный авторитет по прозвищу Босс хочет рассчитаться со своим бывшим партнером за убийство сына и в отместку «заказать» его наследника.",
+  "duration": "110 минут / 01:50",
+  "age": "16+",
+  "rating": "8.1",
+  "actors": [
+    {
+      "name": "Джош Хартнетт",
+      "link": "https://www.kinopoisk.ru/name/206/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/51752849-9afa-484e-9b09-61eafae6401e/280x420",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006c2"
+      }
+    },
+    {
+      "name": "Брюс Уиллис",
+      "link": "https://www.kinopoisk.ru/name/110/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/430cd7ca-cd5e-4017-a950-31f0e4eb6e4f/280x420",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006c3"
+      }
+    },
+    {
+      "name": "Люси Лью",
+      "link": "https://www.kinopoisk.ru/name/21979/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/0c8b8973-4cc6-4bd1-be3c-a252f94094ff/280x420",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006c4"
+      }
+    },
+    {
+      "name": "Бен Кингсли",
+      "link": "https://www.kinopoisk.ru/name/6846/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/1984e7d9-6997-4792-aea2-d796d16eb873/280x420",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006c5"
+      }
+    },
+    {
+      "name": "Майкл Рубенфильд",
+      "link": "https://www.kinopoisk.ru/name/30555/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/a36ceae5-b781-47be-a013-f38054f49db5/280x420",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006c6"
+      }
+    },
+    {
+      "name": "Питер Аутербридж",
+      "link": "https://www.kinopoisk.ru/name/3972/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/ba6721c1-1a0e-47d2-9978-fe9529afda0b/280x420",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006c7"
+      }
+    },
+    {
+      "name": "Стэнли Туччи",
+      "link": "https://www.kinopoisk.ru/name/12028/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/1872cfcd-88f7-4940-9f1c-a25301254ecb/280x420",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006c8"
+      }
+    },
+    {
+      "name": "Кевин Чэмберлин",
+      "link": "https://www.kinopoisk.ru/name/37687/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/40110872-9d5a-4fc6-92ba-55e772e69872/280x420",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006c9"
+      }
+    },
+    {
+      "name": "Дориан Миссик",
+      "link": "https://www.kinopoisk.ru/name/25952/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/65da09a7-55af-439f-a9f1-e69de56224f9/280x420",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006ca"
+      }
+    },
+    {
+      "name": "Морган Фриман",
+      "link": "https://www.kinopoisk.ru/name/6750/",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/eeea24c3-0990-4127-bc42-f74474c03dbb/280x420",
+      "_id": {
+        "$oid": "6355dfbba65e4b841a2006cb"
+      }
+    }
+  ],
+  "youtubeIframe": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/2ZcFb-GDHQA\" title=\"YouTube video player\" frameBorder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowFullScreen></iframe>",
+  "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/92ba73ba-df55-49b5-9005-de7c6543548a/300x450",
+  "crop": "https://s5.afisha.ru/mediastorage/92/34/82151b8eb3874fd7839114f53492.jpg",
+  "__v": 0
+}]
