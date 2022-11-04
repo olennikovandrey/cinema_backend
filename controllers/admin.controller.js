@@ -2,6 +2,7 @@ const User = require("../models/user.model");
 const Cinema = require("../models/cinema.model");
 const Movie = require("../models/movie.model");
 const Room = require("../models/room.model");
+const roomModel = require("../models/room.model");
 
 class adminController {
   async getUsers(_, res) {
@@ -156,6 +157,31 @@ class adminController {
     } catch (e) {
       console.log(e);
       res.status(400).json({ message: "Ошибка во время добавления кинозала. Возможно, не все обязательные поля заполнены", e });
+    }
+  }
+
+  async updateSeatInRoom(req, res) {
+    try {
+      const { title, seats } = req.body;
+      const { row, place, isOccupied, isSelected } = seats[0];
+      await Room.findOneAndUpdate({
+        title,
+        seats: { $elemMatch: {
+          "seats.row": row,
+          "seats.place": place
+        } }
+      },
+      {
+        $set: {
+          "seats.$.isOccupied": isOccupied,
+          "seats.$.isSelected": isSelected
+        }
+      }, { new: true });
+      const updatedRoom = await Room.find({ title })
+      return res.status(200).json({ message: "Информация о кинозале успешно обновлена", updatedRoom });
+    } catch (e) {
+      console.log(e)
+      return res.status(400).json({ message: "Что-то не так..." });
     }
   }
 };
