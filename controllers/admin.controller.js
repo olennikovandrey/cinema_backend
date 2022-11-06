@@ -2,7 +2,6 @@ const User = require("../models/user.model");
 const Cinema = require("../models/cinema.model");
 const Movie = require("../models/movie.model");
 const Room = require("../models/room.model");
-const roomModel = require("../models/room.model");
 
 class adminController {
   async getUsers(_, res) {
@@ -29,21 +28,46 @@ class adminController {
     }
   }
 
+  async getAllCinemas(_, res) {
+    try {
+      const allCinemas = await Cinema.find();
+      return res.json({ allCinemas });
+    } catch (e) {
+      console.log(e);
+      res.status(400).json({ message: "Что-то не так..." });
+    }
+  }
+
+  async getRooms(_, res) {
+    try {
+      const rooms = await Room.find();
+      return res.json({ rooms });
+    } catch (e) {
+      console.log(e);
+      res.status(400).json({ message: "Что-то не так..." });
+    }
+  }
+
   async addCinema(req, res) {
     try {
       const { title, sessions } = req.body;
       const candidate = await Cinema.findOne({ title });
+      const allCinemas = await Cinema.find();
       if (candidate) {
         return res.status(400).json({ message: "Такой кинотеатр уже существует" });
+      };
+
+      if (sessions.length === 0) {
+        return res.status(400).json({ message: "Ошибка во время добавления кинотеатра. Возможно, не все обязательные поля заполнены" });
       };
 
       const cinema = new Cinema({ title, sessions });
       await cinema.save();
 
-      return res.status(200).json({ message: "Кинотеатр успешно добавлен" });
+      return res.json({ message: "Кинотеатр успешно добавлен", allCinemas });
     } catch (e) {
       console.log(e);
-      res.status(400).json({ message: "Что-то не так..." });
+      res.status(400).json({ message: "Ошибка во время добавления кинотеатра. Возможно, не все обязательные поля заполнены" });
     }
   }
 
@@ -72,10 +96,10 @@ class adminController {
     try {
       const { title } = req.body;
       const result = await Cinema.deleteOne({ title });
-      const cinemas = await Cinema.find();
+      const allCinemas = await Cinema.find();
 
       return result.deletedCount ?
-        res.json({message: "Кинотеатр успешно удален", cinemas }) :
+        res.json({ message: "Кинотеатр успешно удален", allCinemas }) :
         res.status(400).json({ message: "Что-то не так..." });
     } catch (e) {
       res.status(400).json({ message: "Что-то не так...", e });

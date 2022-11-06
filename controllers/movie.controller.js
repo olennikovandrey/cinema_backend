@@ -1,7 +1,7 @@
 const Movie = require("../models/movie.model");
 
 class movieController {
-  async getAll(_, res) {
+  async getAllMovies(_, res) {
     try {
       const movies = await Movie.find();
       return res.json(movies);
