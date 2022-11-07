@@ -96,13 +96,13 @@ class authController {
 
   async updateUser(req, res) {
     try {
-      const {email, firstName, oldPassword, password, lastName, birthday} = req.body;
+      const { email, firstName, oldPassword, password, lastName } = req.body;
       const user = await User.findOne({ email });
       if (!user) {
         return res.status(400).json({ message: "По Вашему запросу не найдено совпадений" });
       }
 
-      if(oldPassword) {
+      if (oldPassword) {
         const validPassword = bcrypt.compareSync(oldPassword, user.password);
         const hashPassword = bcrypt.hashSync(password, 1);
         if (!validPassword) {
@@ -112,7 +112,9 @@ class authController {
           { email },
           {
             $set: {
-              password: hashPassword
+              password: hashPassword,
+              firstName: firstName,
+              lastName: lastName
             }
           }
         );
@@ -124,8 +126,7 @@ class authController {
         {
           $set: {
             firstName: firstName,
-            lastName: lastName,
-            birthday: birthday
+            lastName: lastName
           }
         }
       )

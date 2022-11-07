@@ -30,7 +30,26 @@ class adminController {
 
   async getAllCinemas(_, res) {
     try {
-      const allCinemas = await Cinema.find();
+      const allCinemas = await Cinema.aggregate([
+        {
+          $lookup:
+            {
+              from: "movies",
+              localField: "sessions.movieId",
+              foreignField: "_id",
+              as: "movies"
+            }
+        },
+        {
+          $lookup:
+            {
+              from: "rooms",
+              localField: "sessions.roomId",
+              foreignField: "_id",
+              as: "rooms"
+            }
+        },
+      ]);
       return res.json({ allCinemas });
     } catch (e) {
       console.log(e);
