@@ -193,6 +193,10 @@ class adminController {
   async addRoom(req, res) {
     try {
       const { title, seats } = req.body;
+      const candidate = await Room.findOne({ title });
+      if (candidate) {
+        return res.status(400).json({ message: "Такой кинозал уже существует" });
+      };
       const room = new Room({ title, seats });
       await room.save();
 
