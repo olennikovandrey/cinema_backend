@@ -2,6 +2,7 @@ const { Schema, model } = require("mongoose");
 
 const Room = new Schema([{
   title: { type: String, required: true },
+  cinemaTitle: { type: String, required: true },
   seats: [
     {
       seatType: { type: String, required: true },
