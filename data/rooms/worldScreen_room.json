@@ -1,375 +1,643 @@
 [
   {
-    "title": "WorldScreen",
-    "seats": [
+    "title": "WorldScreen_room_1",
+    "cinemaTitle": "WorldScreen",
+    "rows": [
       {
+        "number": 1,
         "seatType": "sofa",
-        "row": 1,
-        "place": 1,
-        "isOccupied": false,
-        "isSelected": false
+        "price": 30,
+        "seats": [
+          {
+            "place": 1,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 2,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 3,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 4,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 5,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 6,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 7,
+            "isOccupied": false,
+            "isSelected": false
+          }
+        ]
       },
       {
+        "number": 2,
         "seatType": "sofa",
-        "row": 1,
-        "place": 2,
-        "isOccupied": false,
-        "isSelected": false
+        "price": 30,
+        "seats": [
+          {
+            "place": 1,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 2,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 3,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 4,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 5,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 6,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 7,
+            "isOccupied": false,
+            "isSelected": false
+          }
+        ]
       },
       {
+        "number": 3,
+        "seatType": "armchair",
+        "price": 12,
+        "seats": [
+          {
+            "place": 1,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 2,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 3,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 4,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 5,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 6,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 7,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 8,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 9,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 10,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 11,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 12,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 13,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 14,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 15,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 16,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 17,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 18,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 19,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place":20,
+            "isOccupied": false,
+            "isSelected": false
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "seatType": "armchair",
+        "price": 12,
+        "seats": [
+          {
+            "place": 1,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 2,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 3,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 4,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 5,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 6,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 7,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 8,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 9,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 10,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 11,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 12,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 13,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 14,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 15,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 16,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 17,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 18,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 19,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place":20,
+            "isOccupied": false,
+            "isSelected": false
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "seatType": "armchair",
+        "price": 12,
+        "seats": [
+          {
+            "place": 1,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 2,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 3,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 4,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 5,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 6,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 7,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 8,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 9,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 10,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 11,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 12,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 13,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 14,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 15,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 16,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 17,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 18,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 19,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place":20,
+            "isOccupied": false,
+            "isSelected": false
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "seatType": "armchair",
+        "price": 12,
+        "seats": [
+          {
+            "place": 1,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 2,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 3,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 4,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 5,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 6,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 7,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 8,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 9,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 10,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 11,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 12,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 13,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 14,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 15,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 16,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 17,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 18,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 19,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place":20,
+            "isOccupied": false,
+            "isSelected": false
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "seatType": "armchairLux",
+        "price": 17,
+        "seats": [
+          {
+            "place": 1,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 2,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 3,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 4,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 5,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 6,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 7,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 8,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 9,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 10,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 11,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 12,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 13,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 14,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 15,
+            "isOccupied": false,
+            "isSelected": false
+          }
+        ]
+      },
+      {
+        "number": 8,
         "seatType": "sofa",
-        "row": 1,
-        "place": 3,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "sofa",
-        "row": 1,
-        "place": 4,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "sofa",
-        "row": 1,
-        "place": 5,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "sofa",
-        "row": 1,
-        "place": 6,
-        "isOccupied": false,
-        "isSelected": false
-      },
-
-      {
-        "seatType": "sofa",
-        "row": 2,
-        "place": 1,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "sofa",
-        "row": 2,
-        "place": 2,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "sofa",
-        "row": 2,
-        "place": 3,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "sofa",
-        "row": 2,
-        "place": 4,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "sofa",
-        "row": 2,
-        "place": 5,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "sofa",
-        "row": 2,
-        "place": 6,
-        "isOccupied": false,
-        "isSelected": false
-      },
-
-      {
-        "seatType": "chair",
-        "row": 3,
-        "place": 1,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 3,
-        "place": 2,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 3,
-        "place": 3,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 3,
-        "place": 4,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 3,
-        "place": 5,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 3,
-        "place": 6,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 3,
-        "place": 7,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 3,
-        "place": 8,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 3,
-        "place": 9,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 3,
-        "place": 10,
-        "isOccupied": false,
-        "isSelected": false
-      },
-
-      {
-        "seatType": "chair",
-        "row": 4,
-        "place": 1,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 4,
-        "place": 2,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 4,
-        "place": 3,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 4,
-        "place": 4,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 4,
-        "place": 5,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 4,
-        "place": 6,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 4,
-        "place": 7,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 4,
-        "place": 8,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 4,
-        "place": 9,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 4,
-        "place": 10,
-        "isOccupied": false,
-        "isSelected": false
-      },
-
-      {
-        "seatType": "chair",
-        "row": 5,
-        "place": 1,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 5,
-        "place": 2,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 5,
-        "place": 3,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 5,
-        "place": 4,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 5,
-        "place": 5,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 5,
-        "place": 6,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 5,
-        "place": 7,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 5,
-        "place": 8,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 5,
-        "place": 9,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 5,
-        "place": 10,
-        "isOccupied": false,
-        "isSelected": false
-      },
-
-      {
-        "seatType": "chair",
-        "row": 6,
-        "place": 1,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 6,
-        "place": 2,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 6,
-        "place": 3,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 6,
-        "place": 4,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 6,
-        "place": 5,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 6,
-        "place": 6,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 6,
-        "place": 7,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 6,
-        "place": 8,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 6,
-        "place": 9,
-        "isOccupied": false,
-        "isSelected": false
-      },
-      {
-        "seatType": "chair",
-        "row": 6,
-        "place": 10,
-        "isOccupied": false,
-        "isSelected": false
+        "price": 30,
+        "seats": [
+          {
+            "place": 1,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 2,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 3,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 4,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 5,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 6,
+            "isOccupied": false,
+            "isSelected": false
+          },
+          {
+            "place": 7,
+            "isOccupied": false,
+            "isSelected": false
+          }
+        ]
       }
     ]
   }

@@ -5,7 +5,6 @@ const adminController = require("../controllers/admin.controller");
 adminRouters.get("/users/getall", adminController.getUsers);
 adminRouters.delete("/users/delete", adminController.deleteUser);
 adminRouters.post("/cinemas/add", adminController.addCinema);
-adminRouters.get("/cinemas/getall", adminController.getAllCinemas);
 adminRouters.put("/cinemas/update", adminController.updateCinema);
 adminRouters.delete("/cinemas/delete", adminController.deleteCinema);
 adminRouters.post("/movies/add", adminController.addMovie);

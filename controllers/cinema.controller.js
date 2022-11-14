@@ -19,6 +19,35 @@ class cinemaController {
       res.status(400).json({ message: "Something wrong", e });
     }
   }
+
+  async getAllCinemas(_, res) {
+    try {
+      const allCinemas = await Cinema.aggregate([
+        {
+          $lookup:
+            {
+              from: "movies",
+              localField: "sessions.movieId",
+              foreignField: "_id",
+              as: "movies"
+            }
+        },
+        {
+          $lookup:
+            {
+              from: "rooms",
+              localField: "sessions.roomId",
+              foreignField: "_id",
+              as: "rooms"
+            }
+        },
+      ]);
+      return res.json({ allCinemas });
+    } catch (e) {
+      console.log(e);
+      res.status(400).json({ message: "Что-то не так..." });
+    }
+  }
 };
 
 module.exports = new cinemaController()

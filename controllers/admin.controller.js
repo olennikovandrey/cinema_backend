@@ -28,35 +28,6 @@ class adminController {
     }
   }
 
-  async getAllCinemas(_, res) {
-    try {
-      const allCinemas = await Cinema.aggregate([
-        {
-          $lookup:
-            {
-              from: "movies",
-              localField: "sessions.movieId",
-              foreignField: "_id",
-              as: "movies"
-            }
-        },
-        {
-          $lookup:
-            {
-              from: "rooms",
-              localField: "sessions.roomId",
-              foreignField: "_id",
-              as: "rooms"
-            }
-        },
-      ]);
-      return res.json({ allCinemas });
-    } catch (e) {
-      console.log(e);
-      res.status(400).json({ message: "Что-то не так..." });
-    }
-  }
-
   async getRooms(_, res) {
     try {
       const rooms = await Room.find();
@@ -192,12 +163,12 @@ class adminController {
 
   async addRoom(req, res) {
     try {
-      const { title, seats } = req.body;
+      const { title, cinemaTitle, rows } = req.body;
       const candidate = await Room.findOne({ title });
       if (candidate) {
         return res.status(400).json({ message: "Такой кинозал уже существует" });
       };
-      const room = new Room({ title, seats });
+      const room = new Room({ title, cinemaTitle, rows });
       await room.save();
 
       return res.status(200).json({ message: "Кинозал успешно добавлен" });
