@@ -28,17 +28,6 @@ class adminController {
     }
   }
 
-
-  async getRooms(_, res) {
-    try {
-      const rooms = await Room.find();
-      return res.json({ rooms });
-    } catch (e) {
-      console.log(e);
-      res.status(400).json({ message: "Что-то не так..." });
-    }
-  }
-
   async addCinema(req, res) {
     try {
       const { title, sessions } = req.body;

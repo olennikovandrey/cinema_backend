@@ -3,6 +3,16 @@ const Movie = require("../models/movie.model");
 const Cinema = require("../models/cinema.model");
 
 class roomController {
+  async getAllRooms(_, res) {
+    try {
+      const rooms = await Room.find();
+      return res.json({ rooms });
+    } catch (e) {
+      console.log(e);
+      res.status(400).json({ message: "Что-то не так..." });
+    }
+  }
+
   async getExactRoom(req, res) {
     try {
       const roomId = req.params.room;

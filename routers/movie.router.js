@@ -2,7 +2,7 @@ const Router = require("express");
 const movieRouters = new Router();
 const movieController = require("../controllers/movie.controller");
 
-movieRouters.get("/all", movieController.getAllMovies);
+movieRouters.get("/all/getallmovies", movieController.getAllMovies);
 movieRouters.get("/country/:country", movieController.getMovieByCountry);
 movieRouters.get("/id/:id", movieController.getExactMovie);
 movieRouters.get("/producer/:producer", movieController.getMovieByProducer);
