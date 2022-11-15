@@ -28,6 +28,7 @@ class adminController {
     }
   }
 
+
   async getRooms(_, res) {
     try {
       const rooms = await Room.find();
