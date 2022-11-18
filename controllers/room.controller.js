@@ -15,9 +15,9 @@ class roomController {
 
   async getExactRoom(req, res) {
     try {
-      const roomId = req.params.room;
-      const movieId = req.params.movie;
-      const cinemaId = req.params.cinema;
+      const roomId = req.params.roomId;
+      const movieId = req.params.movieId;
+      const cinemaId = req.params.cinemaId;
 
       const room = await Room.findOne({ _id: roomId });
       const movie = await Movie.findOne({ _id: movieId });
@@ -36,6 +36,36 @@ class roomController {
     } catch (e) {
       console.log(e);
       res.status(400).json({ message: "Что-то не так..." });
+    }
+  }
+
+  async updateSeatInRoom(req, res) {
+    try {
+      const { title, rowNumber, seatNumber, isOccupied, isSelected } = req.body;
+      const updatedRoom = await Room.findOneAndUpdate({
+        title,
+        rows: { $elemMatch: {
+          "rows.number": rowNumber,
+          "rows.seats": { $elemMatch: {
+            "rows.seats.place": seatNumber
+          } }
+        } }
+      },
+      {
+        $set: {
+          "seats.$.isSelected": isSelected
+        }
+      },
+      {
+        new: true
+      });
+
+
+
+      return res.status(200).json({ message: "Информация о кинозале успешно обновлена", updatedRoom });
+    } catch (e) {
+      console.log(e)
+      return res.status(400).json({ message: "Что-то не так..." });
     }
   }
 }
