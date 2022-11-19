@@ -41,28 +41,24 @@ class roomController {
 
   async updateSeatInRoom(req, res) {
     try {
-      const { title, rowNumber, seatNumber, isOccupied, isSelected } = req.body;
-      const updatedRoom = await Room.findOneAndUpdate({
-        title,
-        rows: { $elemMatch: {
-          "rows.number": rowNumber,
-          "rows.seats": { $elemMatch: {
-            "rows.seats.place": seatNumber
-          } }
-        } }
+      const { roomId, rowNumber, seatNumber, isOccupied, isSelected } = req.body;
+      const room = await Room.findOneAndUpdate({
+        _id: roomId
       },
       {
         $set: {
-          "seats.$.isSelected": isSelected
+          "rows.$[row].seats.$[seat].isSelected": isSelected,
+          "rows.$[row].seats.$[seat].isOccupied": isOccupied
         }
       },
       {
+        arrayFilters: [
+          { "row.number": rowNumber }, { "seat.place": seatNumber }
+        ],
         new: true
       });
 
-
-
-      return res.status(200).json({ message: "Информация о кинозале успешно обновлена", updatedRoom });
+      return res.status(200).json({ message: "Информация о кинозале успешно обновлена", room, selectedSeats });
     } catch (e) {
       console.log(e)
       return res.status(400).json({ message: "Что-то не так..." });

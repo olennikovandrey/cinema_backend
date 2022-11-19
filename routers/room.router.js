@@ -4,6 +4,6 @@ const roomController = require("../controllers/room.controller");
 
 roomRouters.get("/id/cinemaId=:cinemaId&roomId=:roomId&movieId=:movieId", roomController.getExactRoom);
 roomRouters.get("/getallrooms", roomController.getAllRooms);
-roomRouters.put("/updateroom", roomController.updateSeatInRoom)
+roomRouters.put("/updateseat", roomController.updateSeatInRoom)
 
 module.exports = roomRouters
