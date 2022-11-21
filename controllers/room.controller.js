@@ -39,26 +39,63 @@ class roomController {
     }
   }
 
-  async updateSeatInRoom(req, res) {
+  async selectSeatInRoom(req, res) {
     try {
-      const { roomId, rowNumber, seatNumber, isOccupied, isSelected } = req.body;
-      const room = await Room.findOneAndUpdate({
-        _id: roomId
+      const { cinemaId, sessionId, rowNumber, seatNumber, isSelected } = req.body;
+      await Cinema.findOneAndUpdate({
+        _id: cinemaId
       },
       {
         $set: {
-          "rows.$[row].seats.$[seat].isSelected": isSelected,
-          "rows.$[row].seats.$[seat].isOccupied": isOccupied
+          "sessions.$[session].rows.$[row].seats.$[seat].isSelected": isSelected
         }
       },
       {
         arrayFilters: [
-          { "row.number": rowNumber }, { "seat.place": seatNumber }
+          { "session._id": sessionId },
+          { "row.number": rowNumber },
+          { "seat.place": seatNumber }
         ],
         new: true
       });
 
-      return res.status(200).json({ message: "Информация о кинозале успешно обновлена", room, selectedSeats });
+      const session = await Cinema.find({
+        _id: cinemaId
+      },
+      {
+        sessions: { $elemMatch: {
+          _id: sessionId
+        } }
+      });
+
+      console.log(session)
+      /* const session = workSession[0].sessions[0] */
+
+      return res.status(200).json({ message: "Место успешно выбрано", session });
+    } catch (e) {
+      console.log(e)
+      return res.status(400).json({ message: "Что-то не так..." });
+    }
+  }
+
+  async occupiSeatInRoom(req, res) {
+    try {
+      const { roomId, seatsToBuy } = req.body;
+      console.log({roomId})
+      console.log({seatsToBuy})
+
+
+      const room = await Room.updateMany({
+        _id: roomId
+      },
+      {
+
+      },
+      {
+        new: true
+      });
+
+      return res.status(200).json({ message: "Место (места) успешно выкуплено", room });
     } catch (e) {
       console.log(e)
       return res.status(400).json({ message: "Что-то не так..." });

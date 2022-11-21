@@ -10,9 +10,7 @@ const Room = new Schema([{
       price: { type: Number, required: true },
       seats: [
         {
-          place: { type: Number, required: true },
-          isOccupied: { type: Boolean, required: true },
-          isSelected: { type: Boolean }
+          place: { type: Number, required: true }
         }
       ]
     }
