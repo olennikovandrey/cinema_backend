@@ -59,7 +59,7 @@ class roomController {
         new: true
       });
 
-      const session = await Cinema.find({
+      const workSession = await Cinema.find({
         _id: cinemaId
       },
       {
@@ -68,8 +68,7 @@ class roomController {
         } }
       });
 
-      console.log(session)
-      /* const session = workSession[0].sessions[0] */
+      const session = workSession[0].sessions[0]
 
       return res.status(200).json({ message: "Место успешно выбрано", session });
     } catch (e) {

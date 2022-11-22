@@ -9,39 +9,25 @@
         "price": 30,
         "seats": [
           {
-            "place": 1,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 1
           },
           {
-            "place": 2,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 2
           },
           {
-            "place": 3,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 3
           },
           {
-            "place": 4,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 4
           },
           {
-            "place": 5,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 5
           },
           {
-            "place": 6,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 6
           },
           {
-            "place": 7,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 7
           }
         ]
       },
@@ -51,39 +37,25 @@
         "price": 30,
         "seats": [
           {
-            "place": 1,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 1
           },
           {
-            "place": 2,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 2
           },
           {
-            "place": 3,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 3
           },
           {
-            "place": 4,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 4
           },
           {
-            "place": 5,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 5
           },
           {
-            "place": 6,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 6
           },
           {
-            "place": 7,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 7
           }
         ]
       },
@@ -93,104 +65,64 @@
         "price": 12,
         "seats": [
           {
-            "place": 1,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 1
           },
           {
-            "place": 2,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 2
           },
           {
-            "place": 3,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 3
           },
           {
-            "place": 4,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 4
           },
           {
-            "place": 5,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 5
           },
           {
-            "place": 6,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 6
           },
           {
-            "place": 7,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 7
           },
           {
-            "place": 8,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 8
           },
           {
-            "place": 9,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 9
           },
           {
-            "place": 10,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 10
           },
           {
-            "place": 11,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 11
           },
           {
-            "place": 12,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 12
           },
           {
-            "place": 13,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 13
           },
           {
-            "place": 14,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 14
           },
           {
-            "place": 15,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 15
           },
           {
-            "place": 16,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 16
           },
           {
-            "place": 17,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 17
           },
           {
-            "place": 18,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 18
           },
           {
-            "place": 19,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 19
           },
           {
-            "place":20,
-            "isOccupied": false,
-            "isSelected": false
+            "place":20
           }
         ]
       },
@@ -200,104 +132,64 @@
         "price": 12,
         "seats": [
           {
-            "place": 1,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 1
           },
           {
-            "place": 2,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 2
           },
           {
-            "place": 3,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 3
           },
           {
-            "place": 4,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 4
           },
           {
-            "place": 5,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 5
           },
           {
-            "place": 6,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 6
           },
           {
-            "place": 7,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 7
           },
           {
-            "place": 8,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 8
           },
           {
-            "place": 9,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 9
           },
           {
-            "place": 10,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 10
           },
           {
-            "place": 11,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 11
           },
           {
-            "place": 12,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 12
           },
           {
-            "place": 13,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 13
           },
           {
-            "place": 14,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 14
           },
           {
-            "place": 15,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 15
           },
           {
-            "place": 16,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 16
           },
           {
-            "place": 17,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 17
           },
           {
-            "place": 18,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 18
           },
           {
-            "place": 19,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 19
           },
           {
-            "place":20,
-            "isOccupied": false,
-            "isSelected": false
+            "place":20
           }
         ]
       },
@@ -307,104 +199,64 @@
         "price": 12,
         "seats": [
           {
-            "place": 1,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 1
           },
           {
-            "place": 2,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 2
           },
           {
-            "place": 3,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 3
           },
           {
-            "place": 4,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 4
           },
           {
-            "place": 5,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 5
           },
           {
-            "place": 6,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 6
           },
           {
-            "place": 7,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 7
           },
           {
-            "place": 8,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 8
           },
           {
-            "place": 9,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 9
           },
           {
-            "place": 10,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 10
           },
           {
-            "place": 11,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 11
           },
           {
-            "place": 12,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 12
           },
           {
-            "place": 13,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 13
           },
           {
-            "place": 14,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 14
           },
           {
-            "place": 15,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 15
           },
           {
-            "place": 16,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 16
           },
           {
-            "place": 17,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 17
           },
           {
-            "place": 18,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 18
           },
           {
-            "place": 19,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 19
           },
           {
-            "place":20,
-            "isOccupied": false,
-            "isSelected": false
+            "place":20
           }
         ]
       },
@@ -414,104 +266,64 @@
         "price": 12,
         "seats": [
           {
-            "place": 1,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 1
           },
           {
-            "place": 2,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 2
           },
           {
-            "place": 3,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 3
           },
           {
-            "place": 4,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 4
           },
           {
-            "place": 5,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 5
           },
           {
-            "place": 6,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 6
           },
           {
-            "place": 7,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 7
           },
           {
-            "place": 8,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 8
           },
           {
-            "place": 9,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 9
           },
           {
-            "place": 10,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 10
           },
           {
-            "place": 11,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 11
           },
           {
-            "place": 12,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 12
           },
           {
-            "place": 13,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 13
           },
           {
-            "place": 14,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 14
           },
           {
-            "place": 15,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 15
           },
           {
-            "place": 16,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 16
           },
           {
-            "place": 17,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 17
           },
           {
-            "place": 18,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 18
           },
           {
-            "place": 19,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 19
           },
           {
-            "place":20,
-            "isOccupied": false,
-            "isSelected": false
+            "place":20
           }
         ]
       },
@@ -521,79 +333,49 @@
         "price": 17,
         "seats": [
           {
-            "place": 1,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 1
           },
           {
-            "place": 2,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 2
           },
           {
-            "place": 3,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 3
           },
           {
-            "place": 4,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 4
           },
           {
-            "place": 5,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 5
           },
           {
-            "place": 6,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 6
           },
           {
-            "place": 7,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 7
           },
           {
-            "place": 8,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 8
           },
           {
-            "place": 9,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 9
           },
           {
-            "place": 10,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 10
           },
           {
-            "place": 11,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 11
           },
           {
-            "place": 12,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 12
           },
           {
-            "place": 13,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 13
           },
           {
-            "place": 14,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 14
           },
           {
-            "place": 15,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 15
           }
         ]
       },
@@ -603,39 +385,25 @@
         "price": 30,
         "seats": [
           {
-            "place": 1,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 1
           },
           {
-            "place": 2,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 2
           },
           {
-            "place": 3,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 3
           },
           {
-            "place": 4,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 4
           },
           {
-            "place": 5,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 5
           },
           {
-            "place": 6,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 6
           },
           {
-            "place": 7,
-            "isOccupied": false,
-            "isSelected": false
+            "place": 7
           }
         ]
       }
