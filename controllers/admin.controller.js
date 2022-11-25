@@ -53,22 +53,24 @@ class adminController {
 
   async updateCinema(req, res) {
     try {
-      const { id, sessions } = req.body;
-      console.log(id)
-      console.log(sessions)
+      const { updatedCinema } = req.body;
+      const { cinemaId, sessionId, session } = updatedCinema
 
-      const candidate = await Cinema.findOne({ _id: id });
-      if (!candidate) {
-        return res.status(400).json({ message: "По Вашему запросу совпадений не найдено" });
-      }
-      const cinemas = await Cinema.findOneAndUpdate(
-        { _id: id },
+      await Cinema.findOneAndUpdate({
+        _id: cinemaId
+        },
         {
           $set: {
-            sessions: sessions
+            "sessions.$[el]": session
           }
+        }, {
+          arrayFilters: [{ "el._id": sessionId }],
+          new: true
         }
       );
+
+      const cinemas = await Cinema.find();
+
       return res.status(200).json({ message: "Кинотеатр успешно обновлен", cinemas });
     } catch (e) {
       res.status(400).json({ message: "Что-то не так...", e });

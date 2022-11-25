@@ -15,10 +15,7 @@ class roomController {
 
   async getExactRoom(req, res) {
     try {
-      const roomId = req.params.roomId;
-      const movieId = req.params.movieId;
-      const cinemaId = req.params.cinemaId;
-
+      const { roomId, movieId, cinemaId } = req.params;
       const room = await Room.findOne({ _id: roomId });
       const movie = await Movie.findOne({ _id: movieId });
       const workSession = await Cinema.find({
@@ -30,6 +27,7 @@ class roomController {
           movieId: movieId
         } }
       });
+
       const session = workSession[0].sessions[0]
 
       return res.json({ room, movie, session });
@@ -77,24 +75,82 @@ class roomController {
     }
   }
 
-  async occupiSeatInRoom(req, res) {
+  async massUnselectSeatsInRoom(req, res) {
     try {
-      const { roomId, seatsToBuy } = req.body;
-      console.log({roomId})
-      console.log({seatsToBuy})
+      const selectedSeats = req.body;
 
-
-      const room = await Room.updateMany({
-        _id: roomId
-      },
-      {
-
-      },
-      {
-        new: true
+      selectedSeats.forEach(async (el) => {
+        await Cinema.findOneAndUpdate({
+          _id: el.cinemaId
+        },
+        {
+          $set: {
+            "sessions.$[session].rows.$[row].seats.$[seat].isSelected": false
+          }
+        },
+        {
+          arrayFilters: [
+            { "session._id": el.sessionId },
+            { "row.number": el.rowNumber },
+            { "seat.place": el.seatNumber }
+          ],
+          new: true
+        });
       });
 
-      return res.status(200).json({ message: "Место (места) успешно выкуплено", room });
+      const workSession = await Cinema.find({
+        _id: selectedSeats[0].cinemaId
+      },
+      {
+        sessions: { $elemMatch: {
+          _id: selectedSeats[0].sessionId
+        } }
+      });
+
+      const session = workSession[0].sessions[0]
+
+      return res.status(200).json({ message: "Место успешно выбрано", session });
+    } catch (e) {
+      console.log(e)
+      return res.status(400).json({ message: "Что-то не так..." });
+    }
+  }
+
+  async occupiSeatInRoom(req, res) {
+    try {
+      const selectedSeats = req.body;
+
+      selectedSeats.forEach(async (el) => {
+        await Cinema.findOneAndUpdate({
+          _id: el.cinemaId
+        },
+        {
+          $set: {
+            "sessions.$[session].rows.$[row].seats.$[seat].isOccupied": true
+          }
+        },
+        {
+          arrayFilters: [
+            { "session._id": el.sessionId },
+            { "row.number": el.rowNumber },
+            { "seat.place": el.seatNumber }
+          ],
+          new: true
+        });
+      });
+
+      const workSession = await Cinema.find({
+        _id: selectedSeats[0].cinemaId
+      },
+      {
+        sessions: { $elemMatch: {
+          _id: selectedSeats[0].sessionId
+        } }
+      });
+
+      const session = workSession[0].sessions[0]
+
+      return res.status(200).json({ message: "Место (места) успешно выкуплено", session });
     } catch (e) {
       console.log(e)
       return res.status(400).json({ message: "Что-то не так..." });
