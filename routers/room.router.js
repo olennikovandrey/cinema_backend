@@ -6,6 +6,7 @@ roomRouters.get("/id/cinemaId=:cinemaId&roomId=:roomId&movieId=:movieId", roomCo
 roomRouters.get("/getallrooms", roomController.getAllRooms);
 roomRouters.put("/selectseat", roomController.selectSeatInRoom);
 roomRouters.put("/occupiseat", roomController.occupiSeatInRoom);
-roomRouters.put("/massunselectseats", roomController.massUnselectSeatsInRoom)
+roomRouters.put("/massunselectseats", roomController.massUnselectSeatsInRoom);
+roomRouters.post("/payment", roomController.payment);
 
 module.exports = roomRouters

@@ -1,6 +1,7 @@
 const Room = require("../models/room.model");
 const Movie = require("../models/movie.model");
 const Cinema = require("../models/cinema.model");
+const stripe = require("stripe")(process.env.STRIPE_SECRET);
 
 class roomController {
   async getAllRooms(_, res) {
@@ -154,6 +155,27 @@ class roomController {
     } catch (e) {
       console.log(e)
       return res.status(400).json({ message: "Что-то не так..." });
+    }
+  }
+
+  async payment(req, res) {
+    const { amount, id } = req.body;
+
+    try {
+      await stripe.paymentIntents.create({
+        amount: amount / 2.5 * 100,
+        currency: "byn",
+        description: "Оплата за билеты",
+        payment_method: id,
+        confirm: true
+      })
+      return res.json({
+        message: "Оплата успешно произведена",
+        success: true
+      });
+    } catch (e) {
+      console.log(e);
+      res.status(400).json({ message: "Оплата не произведена, попытайтесь еще раз", success: false });
     }
   }
 }
