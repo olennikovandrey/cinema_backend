@@ -1,9 +1,48 @@
 const Movie = require("../models/movie.model");
+const Cinema = require("../models/cinema.model");
+const { ObjectId } = require("mongodb");
 
 class movieController {
   async getAllMovies(_, res) {
     try {
-      const movies = await Movie.find();
+      const movies = await Cinema.aggregate([
+        {
+          '$unwind': {
+            'path': '$sessions',
+            'preserveNullAndEmptyArrays': true
+          }
+        }, {
+          '$lookup': {
+            'from': 'movies',
+            'localField': 'sessions.movieId',
+            'foreignField': '_id',
+            'as': 'movie'
+          }
+        }, {
+          '$unwind': {
+            'path': '$movie',
+            'preserveNullAndEmptyArrays': true
+          }
+        }, {
+          '$group': {
+            '_id': '$movie._id',
+            'movieTitle': {
+              '$first': '$movie.title'
+            },
+            'movieInfo': {
+              '$first': '$movie'
+            },
+            'cinemas': {
+              '$push': {
+                '_id': '$_id',
+                'title': '$title',
+                'session': '$sessions'
+              }
+            }
+          }
+        }
+      ]);
+
       return res.json(movies);
     } catch (e) {
       return res.status(400).json({ message: "Error", e })
@@ -11,10 +50,24 @@ class movieController {
   }
 
   async getExactMovie(req, res) {
+
     try {
       const requestId = req.params.id.split("=")[1];
-      const movies = await Movie.findOne({ _id: requestId });
-      return res.json(movies)
+      const movie = await Movie.findOne({ _id: requestId });
+      const sessions = await Cinema.aggregate([
+        {
+          '$unwind': {
+            'path': '$sessions',
+            'preserveNullAndEmptyArrays': true
+          }
+        }, {
+          '$match': {
+            'sessions.movieId': new ObjectId(requestId)
+          }
+        }
+      ]);
+
+      return res.json({ movie, sessions });
     } catch (e) {
       return res.status(400).json({ message: "Error", e })
     }
