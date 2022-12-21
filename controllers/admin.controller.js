@@ -173,6 +173,28 @@ class adminController {
     }
   }
 
+  async addSession(req, res) {
+    try {
+      const { session } = req.body;
+      const { cinemaId } = session;
+      const currentCinema = await Cinema.updateOne(
+        { _id: cinemaId },
+        {
+          $push: {
+            "sessions": session
+          }
+        }
+      );
+
+      console.log(currentCinema)
+
+      return res.status(200).json({ message: "Киносеанс успешно добавлен" });
+    } catch (e) {
+      console.log(e);
+      res.status(400).json({ message: "Ошибка во время добавления киносеанса. Возможно, не все обязательные поля заполнены", e });
+    }
+  }
+
 
 };
 

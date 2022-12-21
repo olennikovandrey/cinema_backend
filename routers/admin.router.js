@@ -11,5 +11,6 @@ adminRouters.post("/movies/addmovies", adminController.addMovie);
 adminRouters.put("/movies/updatemovies", adminController.updateMovie);
 adminRouters.delete("/movies/deletemovies", adminController.deleteMovie);
 adminRouters.post("/rooms/addrooms", adminController.addRoom);
+adminRouters.post("/sessions/addsessions", adminController.addSession);
 
 module.exports = adminRouters
