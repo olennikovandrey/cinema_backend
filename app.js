@@ -2,13 +2,18 @@ const express = require("express");
 const mongoose = require("mongoose");
 const router = require("./routers/index");
 const cors = require('cors');
-require("dotenv").config();
-
 const app = express();
+const server = require("http").createServer(app);
+const socketUtils = require("./services/socket");
+
+require("dotenv").config();
 
 app.use(express.json());
 app.use(cors());
 app.use("/", router);
+
+const io = socketUtils.sio(server);
+socketUtils.connection(io);
 
 const start = async () => {
   try {
@@ -16,7 +21,7 @@ const start = async () => {
     .then(
       () => {
         console.log("database connected");
-        app.listen(4000, () => { console.log("Server OK") })
+        server.listen(4000, () => { console.log("Server OK") })
       },
       err => console.log(err)
     );
