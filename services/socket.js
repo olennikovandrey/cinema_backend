@@ -32,5 +32,9 @@ exports.connection = io => {
 
       io.emit("seat select event", session);
     });
+
+    socket.on("mass unselect event", () => {
+
+    })
   });
 };

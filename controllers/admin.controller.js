@@ -51,10 +51,12 @@ class adminController {
     }
   }
 
-  async updateCinema(req, res) {
+  async updateSession(req, res) {
+    const cinemas = await Cinema.find();
+
     try {
-      const { updatedCinema } = req.body;
-      const { cinemaId, sessionId, session } = updatedCinema
+      const { updatedSession } = req.body;
+      const { cinemaId, sessionId, session } = updatedSession;
 
       await Cinema.findOneAndUpdate({
         _id: cinemaId
@@ -69,9 +71,30 @@ class adminController {
         }
       );
 
+      return res.status(200).json({ message: "Кинотеатр успешно обновлен", cinemas });
+    } catch (e) {
+      res.status(400).json({ message: "Что-то не так...", e, cinemas });
+    }
+  }
+
+  async deleteSession(req, res) {
+    try {
+      const { sessionId, cinemaId } = req.body;
+
+      await Cinema.updateOne(
+        { _id: cinemaId },
+        {
+          $pull: {
+            "sessions": {
+              "_id": sessionId
+            }
+          }
+        }
+      );
+
       const cinemas = await Cinema.find();
 
-      return res.status(200).json({ message: "Кинотеатр успешно обновлен", cinemas });
+      return res.status(200).json({ message: "Киносеанс успешно удален", cinemas });
     } catch (e) {
       res.status(400).json({ message: "Что-то не так...", e });
     }
@@ -177,7 +200,8 @@ class adminController {
     try {
       const { session } = req.body;
       const { cinemaId } = session;
-      const currentCinema = await Cinema.updateOne(
+
+      await Cinema.updateOne(
         { _id: cinemaId },
         {
           $push: {
@@ -185,8 +209,6 @@ class adminController {
           }
         }
       );
-
-      console.log(currentCinema)
 
       return res.status(200).json({ message: "Киносеанс успешно добавлен" });
     } catch (e) {
