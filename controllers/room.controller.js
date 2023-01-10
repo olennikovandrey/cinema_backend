@@ -4,7 +4,7 @@ const Cinema = require("../models/cinema.model");
 const stripe = require("stripe")(process.env.STRIPE_SECRET);
 const { createMessage } = require("../services/mailer");
 const { createPDFAsync, sendEmailAsync, removePDFAsync } = require("../services/functions");
-const cron = require('node-cron');
+const schedule = require("node-schedule");
 
 const getCinemaTitle = async seatsToBuy => {
   const currentCinema = await Cinema.find({
@@ -79,14 +79,18 @@ class roomController {
   }
 
   async selectSeatInRoom(req, res) {
-    try {
-      const { cinemaId, sessionId, rowNumber, seatNumber, isSelected } = req.body;
+    const { cinemaId, sessionId, rowNumber, seatNumber, isSelected } = req.body;
+    const fiveMinutes = 5 * 60 * 1000;
+    const startTime = new Date(Date.now() + fiveMinutes);
+    const endTime = new Date(startTime.getTime() + fiveMinutes + 1500);
+
+    const changeIsSelected = async isSelectedParam => {
       await Cinema.findOneAndUpdate({
         _id: cinemaId
       },
       {
         $set: {
-          "sessions.$[session].rows.$[row].seats.$[seat].isSelected": isSelected
+          "sessions.$[session].rows.$[row].seats.$[seat].isSelected": isSelectedParam
         }
       },
       {
@@ -96,6 +100,13 @@ class roomController {
           { "seat.place": seatNumber }
         ],
         new: true
+      });
+    }
+
+    try {
+      changeIsSelected(isSelected);
+      schedule.scheduleJob({ start: startTime, end: endTime, rule: "*/10 * * * * *" }, function(){
+        changeIsSelected(false);
       });
 
       const workSession = await Cinema.find({
@@ -107,26 +118,7 @@ class roomController {
         } }
       });
 
-      const session = workSession[0].sessions[0]
-
-      cron.schedule("5 * * * *", async () => {
-        await Cinema.findOneAndUpdate({
-          _id: cinemaId
-        },
-        {
-          $set: {
-            "sessions.$[session].rows.$[row].seats.$[seat].isSelected": false
-          }
-        },
-        {
-          arrayFilters: [
-            { "session._id": sessionId },
-            { "row.number": rowNumber },
-            { "seat.place": seatNumber }
-          ],
-          new: true
-        });
-      });
+      const session = workSession[0].sessions[0];
 
       return res.status(200).json({ message: "Место успешно выбрано", session });
     } catch (e) {

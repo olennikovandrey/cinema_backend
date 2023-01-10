@@ -50,24 +50,51 @@ class movieController {
   }
 
   async getExactMovie(req, res) {
-
     try {
       const requestId = req.params.id.split("=")[1];
-      const movie = await Movie.findOne({ _id: requestId });
-      const sessions = await Cinema.aggregate([
+      const movie = await Cinema.aggregate([
         {
           '$unwind': {
             'path': '$sessions',
             'preserveNullAndEmptyArrays': true
           }
         }, {
+          '$lookup': {
+            'from': 'movies',
+            'localField': 'sessions.movieId',
+            'foreignField': '_id',
+            'as': 'movie'
+          }
+        }, {
+          '$unwind': {
+            'path': '$movie',
+            'preserveNullAndEmptyArrays': true
+          }
+        }, {
+          '$group': {
+            '_id': '$movie._id',
+            'movieTitle': {
+              '$first': '$movie.title'
+            },
+            'movieInfo': {
+              '$first': '$movie'
+            },
+            'cinemas': {
+              '$push': {
+                '_id': '$_id',
+                'title': '$title',
+                'session': '$sessions'
+              }
+            }
+          }
+        }, {
           '$match': {
-            'sessions.movieId': new ObjectId(requestId)
+            '_id': new ObjectId(requestId)
           }
         }
       ]);
 
-      return res.json({ movie, sessions });
+      return res.json({ movie });
     } catch (e) {
       return res.status(400).json({ message: "Error", e })
     }

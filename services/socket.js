@@ -1,5 +1,6 @@
 const socketIO = require("socket.io");
 const Cinema = require("../models/cinema.model");
+const schedule = require("node-schedule");
 
 exports.sio = server => {
   return socketIO(server, {
@@ -11,6 +12,10 @@ exports.sio = server => {
 };
 
 exports.connection = io => {
+  const fiveMinutes = /* 5 * 60 * 1000 */ 5000;
+  const startTime = new Date(Date.now() + fiveMinutes);
+  const endTime = new Date(startTime.getTime() + fiveMinutes + 1500);
+
   io.on("connection", socket => {
     console.log(`User ${ socket.id } connected`);
 
@@ -19,6 +24,7 @@ exports.connection = io => {
     });
 
     socket.on("seat select event", async ({ cinemaId, roomId, movieId }) => {
+      console.log("sdhfjksdgfhg")
       const workSession = await Cinema.find({
         _id: cinemaId
       },
@@ -32,9 +38,5 @@ exports.connection = io => {
 
       io.emit("seat select event", session);
     });
-
-    socket.on("mass unselect event", () => {
-
-    })
   });
 };
